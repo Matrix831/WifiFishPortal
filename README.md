@@ -1,30 +1,33 @@
-EvilPortalLab - Wi-Fi Captive Portal Tool
+EvilPortalLab
 
-Disclaimer: This tool is intended for authorized security testing and educational purposes ONLY. Using this tool on networks without explicit permission is illegal and unethical. The developer assumes no liability for misuse.
+A Python toolkit for launching Wi-Fi Captive Portal attacks.
 
-EvilPortalLab is a Python-based tool for creating a "Fake" Wi-Fi Access Point (AP) and launching a captive portal. It is designed for penetration testing and red-teaming exercises to simulate Wi-Fi-based social engineering attacks.
+                          ⚠️ ETHICAL USE ONLY ⚠️
+This tool is intended for authorized security testing and educational purposes. Using this tool on networks without explicit permission is illegal and unethical. The developer assumes no liability for misuse.
 
-When a target connects to the AP, this tool uses dnsmasq and iptables to redirect all web traffic (HTTP) to a local web server (the captive portal), which can be used to serve custom landing pages.
+WifiFishPortal is a powerful toolkit for penetration testers and red teams to simulate Wi-Fi social engineering attacks. It automates the creation of a "Fake" Access Point (AP) and a captive portal.
 
-Features
+When a target connects, the tool hijacks their web traffic using dnsmasq and iptables, redirecting all HTTP requests to your custom-built landing page.
 
-Fake AP Creation: Broadcasts a custom SSID using hostapd.
+✨ Features
 
-WPA2 Support: Can create an open network or a WPA2-protected network.
+Fake AP Creation: Broadcasts any custom SSID (e.g., "Free_Airport_WiFi") using hostapd.
 
-Captive Portal: Redirects all HTTP traffic to a local portal.
+WPA2 Support: Creates either an Open network or a secure WPA2-protected one.
 
-DNS Catch-All: Intercepts and responds to all DNS queries, forcing clients to the portal.
+Full Captive Portal: Intelligently redirects all HTTP traffic to your local portal.
 
-Network Isolation: Uses iptables to prevent clients on the fake AP from accessing the upstream network or other clients.
+DNS Catch-All: Intercepts and responds to all DNS queries, forcing clients to your page even if they type a domain name.
 
-Easy Configuration: Manages settings via a config.json file.
+Client Isolation: iptables rules prevent clients from accessing the real network or other devices on the AP.
 
-Interface Detection: Automatically scans for and helps configure wireless interfaces.
+Easy Configuration: Manage all settings from a simple config.json file.
 
-Dependencies
+Auto-Interface Scan: Detects and helps you select the right wireless adapter.
 
-This tool is designed for Linux and relies on several external system utilities:
+🛠️ Dependencies
+
+This tool is built for Linux and requires several key utilities:
 
 python3
 
@@ -38,32 +41,21 @@ nmcli (NetworkManager command-line)
 
 iw
 
-iproute2 (for ip command)
+iproute2 (for the ip command)
 
-You can typically install these on a Debian-based system (like Kali or Ubuntu) with:
+🚀 Installation
+
+On a Debian-based system (like Kali, Ubuntu, or Raspberry Pi OS), you can install the main dependencies with:
 
 sudo apt update
 sudo apt install hostapd dnsmasq python3-pip
 
 
-(The other tools are usually pre-installed on modern distributions).
+(The other tools are typically pre-installed on modern distributions.)
 
-Configuration
+⚙️ Configuration
 
-The tool is configured via a central config.json file. The server will generate one on first run if it's missing.
-
-{
-  "wifi_interface": "wlxc01c30431f9b",
-  "ssid": "Free_Airport_WiFi",
-  "channel": 6,
-  "wpa2": false,
-  "wpa_passphrase": "password123",
-  "portal_ip": "10.0.0.1",
-  "portal_port": 8080,
-  "dns_catch_all": true,
-  "upstream_interface": "eth0"
-}
-
+All settings are managed via the config.json file. The server will create a default one on its first run.
 
 wifi_interface: The wireless adapter to use (e.g., wlan0).
 
@@ -83,13 +75,12 @@ dns_catch_all: true to redirect all DNS.
 
 upstream_interface: The interface with internet access (e.g., eth0) for NAT.
 
-Usage
+⚡ How to Use
 
 1. Clone the Repository:
 
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
-
+git clone [https://github.com/Matrix831/WifiFishPortal.git]
+cd WifiFishPortal
 
 2. Select Interface (First-Time Setup):
 If your config.json is empty, run the tool to select an adapter.
@@ -98,26 +89,25 @@ If your config.json is empty, run the tool to select an adapter.
 sudo python3 main.py --select-interface
 
 
-This will detect wireless adapters and save your choice to config.json.
+This will detect wireless adapters and save your choice.
 
 3. Start the Access Point:
-This must be run as root to manage network interfaces and iptables.
+This must be run as root. Make sure your own captive portal web server is running on the configured port!
 
-# Make sure your captive portal web server is running on port 8080
 sudo python3 main.py --start-ap
 
 
 This will:
 
-Generate hostapd.conf and dnsmasq.conf.
+Generate hostapd.conf and dnsmasq.conf
 
-Configure iptables rules.
+Configure all the iptables rules
 
-Start the hostapd and dnsmasq services.
+Start the hostapd and dnsmasq services
 
 4. Stop the Access Point:
 
 sudo python3 main.py --stop-ap
 
 
-This will kill the AP processes and clean up all iptables rules.
+This kills all processes and cleans up the iptables rules.
