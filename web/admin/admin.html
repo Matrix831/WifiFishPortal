@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Portal Admin — Red & Black</title>
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <div class="wrap">
+    <aside class="sidebar card" aria-label="Controls">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>Portal Admin</h1>
+          <div class="hint">Local-only • Red Team</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Adapter</div>
+        <div class="control-row">
+          <select id="adapterSelect" class="select"></select>
+        </div>
+        <div class="control-row">
+          <button id="btnDetect" class="btn btn-ghost btn-small">Auto-detect</button>
+          <button id="btnSetAdapter" class="btn btn-danger btn-small">Set Adapter</button>
+        </div>
+        <div class="hint">Auto-detect will call the server to list wireless interfaces.</div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Portal Site</div>
+        <div class="control-row">
+          <select id="siteSelect" class="select"></select>
+        </div>
+        <div class="control-row">
+          <input id="customSite" class="input" placeholder="Or enter custom site folder (web/victim/...)" />
+        </div>
+        <div class="control-row">
+          <button id="btnSetSite" class="btn btn-danger btn-small">Apply Site</button>
+        </div>
+        <div class="hint">Choose which site files are served to connecting devices.</div>
+      </div>
+
+      <div class="section" style="margin-top:10px">
+        <div class="section-title">AP Settings</div>
+        <div class="kv">
+          <label for="ssidInput">SSID</label>
+          <input id="ssidInput" class="input" placeholder="TestPortalAP">
+        </div>
+        <div class="kv">
+          <label for="channelInput">Channel</label>
+          <input id="channelInput" class="input" placeholder="6" />
+        </div>
+        <div class="kv">
+          <label for="wpaCheck">WPA2</label>
+          <input type="checkbox" id="wpaCheck"/>
+        </div>
+        <div class="kv" id="passRow" style="display:none">
+          <label for="wpaPass">Passphrase</label>
+          <input id="wpaPass" class="input" placeholder="min 8 chars"/>
+        </div>
+        <div class="control-row">
+          <button id="btnApplyAP" class="btn btn-danger">Apply</button>
+        </div>
+      </div>
+
+      <div style="height:10px"></div>
+
+      <div class="section">
+        <div class="section-title">Quick Actions</div>
+        <div class="control-row">
+          <button id="btnGenerate" class="btn btn-ghost btn-small">Generate Runtime</button>
+          <button id="btnSimStart" class="btn btn-ghost btn-small">Start</button>
+          <button id="btnSimStop" class="btn btn-ghost btn-small">Stop</button>
+        </div>
+        <div class="hint">Generate writes hostapd/dnsmasq templates into <code>data/runtime/</code></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="card">
+        <div class="section-title">Status</div>
+        <div class="kv"><label>Server</label><div class="val" id="serverStatus">not loaded</div></div>
+        <div class="kv"><label>Selected Adapter</label><div class="val" id="selectedAdapter">-</div></div>
+        <div class="kv"><label>Portal Site</label><div class="val" id="selectedSite">-</div></div>
+      </div>
+
+      <div class="card">
+        <div class="section-title">Saved Credentials</div>
+        <div class="row" style="margin-bottom:8px">
+          <button id="btnLoadSubs" class="btn btn-danger">Load credentials</button>
+          <button id="btnExportSubs" class="btn btn-ghost">Export</button>
+          <button id="btnClearView" class="btn btn-ghost">Clear</button>
+        </div>
+        <div id="subsViewer" class="viewer">No data loaded. Click "Load credentials".</div>
+      </div>
+
+      <div class="card">
+        <div class="section-title">Events & Logs</div>
+        <div class="row" style="margin-bottom:8px">
+          <button id="btnClearLogs" class="btn btn-ghost">Clear View</button>
+          <div class="hint" style="flex:1;text-align:right">Auto-refreshes every 5s</div>
+        </div>
+        <pre id="eventLogViewer" class="viewer" style="max-height: 200px; font-size: 0.8rem;">—</pre>
+        <div class="hint">Full log: <code>logs/portal.log</code></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="/admin/admin.js" defer></script>
+  <script>
+    // small wiring to show/hide passphrase input when WPA2 checked
+    document.addEventListener('DOMContentLoaded', () => {
+      const wpa = document.getElementById('wpaCheck');
+      const passRow = document.getElementById('passRow');
+      wpa.addEventListener('change', () => {
+        passRow.style.display = wpa.checked ? 'flex' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>

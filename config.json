@@ -1,0 +1,15 @@
+{
+  "portal_port": 8081,
+  "victim_site": "victim",
+  "wifi_interface": "wlxc01c30431f9b",
+  "admin_site": "admin",
+  "dns_catch_all": true,
+  "grant_mode": "timed",
+  "timed_minutes": 30,
+  "debug": true,
+  "ssid": "qwertyuiopkkkkkk",
+  "channel": 6,
+  "wpa2": false,
+  "wpa_passphrase": "",
+  "portal_ip": "10.0.0.1"
+}

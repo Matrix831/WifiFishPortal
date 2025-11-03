@@ -1,0 +1,255 @@
+/* web/victim/style.css
+   Clean, minimal styling for the victim-facing captive portal.
+   Mobile-first, responsive, accessible-ish.
+*/
+
+:root{
+  --bg-1: #f4f7fb;
+  --card: #ffffff;
+  --accent: #0b74de;
+  --muted: #6b7280;
+  --radius: 12px;
+  --shadow: 0 8px 30px rgba(14,30,37,0.06);
+  --max-width: 420px;
+  --gap: 14px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: Inter, "Segoe UI", Roboto, system-ui, -apple-system, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg,var(--bg-1),#eef3fb);
+  color: #0f172a;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+}
+
+.card{
+  width:100%;
+  max-width:var(--max-width);
+  background:var(--card);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:20px;
+  text-align:left;
+  margin:0 auto;
+}
+
+.header{
+  text-align:center;
+  margin-bottom:12px;
+}
+
+.logo{
+  display:block;
+  margin:0 auto 8px;
+  max-width:84px;
+}
+
+h1{
+  margin:0;
+  font-size:1.35rem;
+  line-height:1.15;
+}
+
+.lead{
+  margin:8px 0 14px 0;
+  color:var(--muted);
+  font-size:0.95rem;
+  text-align:center;
+}
+
+/* form */
+.form-row{margin-bottom:12px}
+.label{
+  display:block;
+  font-size:0.85rem;
+  margin-bottom:6px;
+  color:#334155;
+}
+.input, textarea, select{
+  width:100%;
+  padding:10px 12px;
+  border-radius:10px;
+  border:1px solid #e6e9ee;
+  font-size:1rem;
+  background:#fff;
+  outline:none;
+  transition: box-shadow .12s, border-color .12s;
+}
+.input:focus{
+  box-shadow:0 0 0 4px rgba(11,116,222,0.08);
+  border-color:var(--accent);
+}
+
+.row{
+  display:flex;
+  gap:10px;
+}
+
+.small{
+  font-size:0.95rem;
+  color:var(--muted);
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+/* buttons */
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding:10px 90px;
+  border-radius:10px;
+  border:none;
+  cursor:pointer;
+  font-weight:600;
+}
+.btn-primary{
+  background:var(--accent);
+  color:white;
+  box-shadow:0 6px 16px rgba(11,116,222,0.18);
+}
+.btn-ghost{
+  background:transparent;
+  color:var(--accent);
+  border:1px solid rgba(11,116,222,0.12);
+}
+
+/* footer */
+.footer{
+  margin-top:14px;
+  font-size:0.88rem;
+  color:var(--muted);
+  text-align:center;
+}
+
+/* --- ADDED THIS SECTION --- 
+*/
+.social-container {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #e6e9ee; /* Light separator line */
+}
+.social-title {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  color: var(--muted);
+}
+.social-logins {
+  display: flex;
+  justify-content: center;
+  gap: 24px; /* Space between logos */
+}
+.social-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 25%; /* Makes it a circle */
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: transform 0.2s ease;
+}
+.social-logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+/* --- END OF ADDED SECTION --- */
+
+
+/* small screens adjustments */
+@media (max-width:420px){
+  .card{ padding:16px; border-radius:10px }
+  h1{ font-size:1.15rem }
+}
+
+/* utility */
+.muted{ color:var(--muted) }
+.center{ text-align:center }
+
+/* --- ADDED FOR THANKS PAGE --- */
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50%;
+  box-sizing: content-box;
+  border: 4px solid #4CAF50; /* Green color */
+  margin: 20px auto;
+  transform: scale(0); /* Start hidden */
+  animation: scale-in 0.4s 0.2s ease-out forwards;
+}
+
+.success-icon-tip,
+.success-icon-long {
+  background-color: #4CAF50;
+  position: absolute;
+  height: 5px;
+  border-radius: 2px;
+}
+
+.success-icon-tip {
+  width: 25px;
+  left: 14px;
+  top: 46px;
+  transform: rotate(45deg);
+  animation: check-tip 0.3s 0.6s ease-out forwards;
+}
+
+.success-icon-long {
+  width: 47px;
+  right: 8px;
+  top: 38px;
+  transform: rotate(-45deg);
+  animation: check-long 0.3s 0.6s ease-out forwards;
+}
+
+/* --- ANIMATIONS --- */
+
+@keyframes scale-in {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+
+@keyframes check-tip {
+  from { width: 0; left: 1px; top: 19px; }
+  to { width: 25px; left: 14px; top: 46px; }
+}
+
+@keyframes check-long {
+  from { width: 0; right: 46px; top: 54px; }
+  to { width: 47px; right: 8px; top: 38px; }
+}
+
+/* --- ADDED FOR LOGIN ERROR --- */
+
+.form-error .input {
+  border-color: #e11d48; /* Red border */
+  box-shadow: 0 0 0 4px rgba(225, 29, 72, 0.1); /* Red glow */
+}
+
+.form-error-message {
+  color: #e11d48 !important; /* Red text, override .muted */
+  font-weight: 600;
+  animation: shake 0.5s ease;
+}
+
+/* Simple shake animation for the error text */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+}

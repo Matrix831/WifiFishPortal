@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Free Wi‑Fi — Connect</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card" role="main" aria-labelledby="title">
+      <div class="header">
+        <img src="/statics/logo.jpeg" alt="Portal logo" class="logo" onerror="this.style.display='none'">
+        <h1 id="title">Welcome — Free Wi‑Fi</h1>
+        <p class="lead muted">Login to Access the Internet</p>
+      </div>
+
+      <form id="access-form" method="POST" action="/submit" autocomplete="off" novalidate>
+        <div class="form-row">
+          <label class="label" for="device_name">Username</label>
+          <input class="input" id="device_name" name="device_name" type="text" placeholder="Enter Username" required>
+        </div>
+
+        <div class="form-row">
+          <label class="label" for="password">Password</label>
+          <input class="input" id="password" name="password" type="password" placeholder="Enter a test password" required>
+        </div>
+
+        <div class="form-row small">
+          <label style="display:flex;align-items:center;gap:8px">
+            <input type="checkbox" name="remember" value="1"> <span>Remember this device</span>
+          </label>
+        </div>
+
+        <div class="form-row center">
+          <button class="btn btn-primary" type="submit">Continue</button>
+        </div>
+      </form>
+
+      <div class="social-container">
+        <p class="social-title muted">or continue using:</p>
+        <div class="social-logins">
+          <a href="/webpages/link1.html"><img src="/statics/logo1.png" alt="Option 1" class="social-logo"></a>
+          <a href="/webpages/link2.html"><img src="/statics/logo2.jpeg" alt="Option 2" class="social-logo"></a>
+          <a href="/link3.html"><img src="/statics/logo3.png" alt="Option 3" class="social-logo"></a>
+        </div>
+      </div>
+      <p class="footer muted center">If the page doesn't load automatically, open <code>http://neverssl.com/</code> in the device browser.</p>
+    </div>
+  </div>
+
+  <script src="/script.js" defer></script>
+</body>
+</html>

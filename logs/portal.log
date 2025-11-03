@@ -1,0 +1,1956 @@
+[2025-11-01T12:27:03.726284] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T12:27:18.235095] [portal] Received submission from 127.0.0.1; stored encrypted.
+[2025-11-01T12:34:17.088384] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T12:34:43.779887] [portal] Admin UI access denied from 192.168.1.10
+[2025-11-01T12:38:35.124640] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T12:42:37.100322] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T12:44:07.584828] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T12:47:36.202387] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T12:51:31.552154] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T12:59:59.638230] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T13:02:33.331325] [portal] Admin updated config via API.
+[2025-11-01T13:04:33.580276] [portal] Admin updated config via API.
+[2025-11-01T13:04:45.988511] [network] AP start simulated (no privileged commands executed).
+[2025-11-01T13:07:44.905288] [portal] Admin updated config via API.
+[2025-11-01T13:07:49.852998] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T13:07:49.856182] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T13:07:49.856506] [network] Runtime files generated.
+[2025-11-01T13:07:49.856751] [portal] Admin triggered runtime generation.
+[2025-11-01T13:07:52.978193] [network] AP start simulated (no privileged commands executed).
+[2025-11-01T13:24:21.770107] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T13:24:21.773314] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T13:24:21.773555] [network] Runtime files generated.
+[2025-11-01T13:24:21.773965] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T13:24:33.627026] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T13:24:33.627443] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T13:24:33.627751] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-01T13:24:33.627992] [exec] ip link set wlxc01c30431f9b down
+[2025-11-01T13:24:33.638972] [error] Command failed: ip link set wlxc01c30431f9b down (Command '['ip', 'link', 'set', 'wlxc01c30431f9b', 'down']' returned non-zero exit status 2.)
+[2025-11-01T13:24:33.639392] [portal] start-sim error: Command '['ip', 'link', 'set', 'wlxc01c30431f9b', 'down']' returned non-zero exit status 2.
+[2025-11-01T13:29:37.833449] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T13:29:37.834123] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T13:29:37.834424] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-01T13:29:37.835021] [exec] ip link set wlxc01c30431f9b down
+[2025-11-01T13:29:37.844718] [error] Command failed: ip link set wlxc01c30431f9b down (Command '['ip', 'link', 'set', 'wlxc01c30431f9b', 'down']' returned non-zero exit status 2.)
+[2025-11-01T13:29:37.845420] [portal] start-sim error: Command '['ip', 'link', 'set', 'wlxc01c30431f9b', 'down']' returned non-zero exit status 2.
+[2025-11-01T13:31:28.891880] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T13:31:28.892542] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T13:31:28.892883] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-01T13:31:28.893144] [exec] ip link set wlxc01c30431f9b down
+[2025-11-01T13:31:28.896820] [error] Command failed: ip link set wlxc01c30431f9b down (Command '['ip', 'link', 'set', 'wlxc01c30431f9b', 'down']' returned non-zero exit status 2.)
+[2025-11-01T13:31:28.897192] [portal] start-sim error: Command '['ip', 'link', 'set', 'wlxc01c30431f9b', 'down']' returned non-zero exit status 2.
+[2025-11-01T13:39:34.473928] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T13:39:34.477566] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T13:39:34.477815] [network] Runtime files generated.
+[2025-11-01T13:39:34.478210] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T13:45:29.912376] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T13:45:29.915489] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T13:45:29.915760] [network] Runtime files generated.
+[2025-11-01T13:45:29.916179] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T13:46:33.111432] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T13:48:47.247679] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T14:09:55.209973] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T14:11:18.656491] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T14:11:25.884754] [portal] Admin updated config via API (no pass required).
+[2025-11-01T14:11:29.573463] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T14:11:29.574188] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T14:11:29.574463] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-01T14:11:29.574749] [exec] ip link set wlxc01c30431f9b down
+[2025-11-01T14:11:29.613413] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-01T14:11:29.616348] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-01T14:11:29.620405] [exec] ip link set wlxc01c30431f9b up
+[2025-11-01T14:11:29.766164] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-01T14:11:29.768396] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-01T14:11:29.847577] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-01T14:11:29.856477] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j ACCEPT
+[2025-11-01T14:11:29.859230] [exec] pkill hostapd || true
+[2025-11-01T14:11:29.863673] [error] Command failed: pkill hostapd || true (Command '['pkill', 'hostapd', '||', 'true']' returned non-zero exit status 2.)
+[2025-11-01T14:11:29.863975] [portal] start-sim error: Command '['pkill', 'hostapd', '||', 'true']' returned non-zero exit status 2.
+[2025-11-01T14:16:28.777609] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T14:16:38.396219] [portal] Admin updated config via API (no pass required).
+[2025-11-01T14:16:43.754613] [portal] Admin updated config via API (no pass required).
+[2025-11-01T14:16:46.714887] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T14:16:46.715400] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T14:16:46.715728] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-01T14:16:46.716032] [exec] ip link set wlxc01c30431f9b down
+[2025-11-01T14:16:46.753132] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-01T14:16:46.758635] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-01T14:16:46.765111] [exec] ip link set wlxc01c30431f9b up
+[2025-11-01T14:16:46.910730] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-01T14:16:46.913825] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-01T14:16:46.918568] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-01T14:16:46.923823] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j ACCEPT
+[2025-11-01T14:16:46.928691] [exec] pkill hostapd || true
+[2025-11-01T14:16:46.963305] [exec] pkill dnsmasq || true
+[2025-11-01T14:16:46.997949] [exec] hostapd /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf -B
+[2025-11-01T14:16:47.013588] [exec] dnsmasq -C /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf -k &
+[2025-11-01T14:16:47.015809] [network] AP started (real execution).
+[2025-11-01T14:32:13.806585] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T14:32:13.810103] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T14:32:13.810507] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-01T14:32:13.811779] [exec] ip link set wlxc01c30431f9b down
+[2025-11-01T14:32:13.925094] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-01T14:32:13.937005] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-01T14:32:13.951643] [exec] ip link set wlxc01c30431f9b up
+[2025-11-01T14:32:14.115560] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-01T14:32:14.128106] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-01T14:32:14.156325] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-01T14:32:14.173045] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j ACCEPT
+[2025-11-01T14:32:14.185473] [exec] pkill hostapd || true
+[2025-11-01T14:32:14.293696] [exec] pkill dnsmasq || true
+[2025-11-01T14:32:14.379935] [exec] hostapd /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf -B
+[2025-11-01T14:32:14.411650] [exec] dnsmasq -C /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf -k &
+[2025-11-01T14:32:14.416826] [network] AP started (real execution).
+[2025-11-01T14:59:17.708099] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/data/runtime/hostapd.conf
+[2025-11-01T14:59:17.708664] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/data/runtime/dnsmasq.conf
+[2025-11-01T14:59:17.708917] [network] Runtime files generated.
+[2025-11-01T14:59:17.709307] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T14:59:27.402689] [portal] Admin updated config via API (no pass required).
+[2025-11-01T14:59:33.455880] [portal] Admin updated config via API (no pass required).
+[2025-11-01T14:59:45.731230] [portal] Admin updated config via API (no pass required).
+[2025-11-01T14:59:51.288614] [portal] start_ap error: module 'core.network' has no attribute 'start_ap'
+[2025-11-01T15:01:44.056317] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:01:44.056938] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:01:44.057165] [network] Runtime files generated.
+[2025-11-01T15:01:44.057535] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T15:01:54.109973] [portal] Admin updated config via API (no pass required).
+[2025-11-01T15:01:57.318724] [portal] Admin updated config via API (no pass required).
+[2025-11-01T15:02:02.735381] [portal] Admin updated config via API (no pass required).
+[2025-11-01T15:02:05.551675] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:02:05.552072] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:02:05.552327] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-01T15:02:05.552554] [exec] ip link set wlxc01c30431f9b down
+[2025-11-01T15:02:05.591077] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-01T15:02:05.596158] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-01T15:02:05.602804] [exec] ip link set wlxc01c30431f9b up
+[2025-11-01T15:02:05.748944] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-01T15:02:05.752205] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-01T15:02:05.759403] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-01T15:02:05.763557] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j ACCEPT
+[2025-11-01T15:02:05.767769] [exec] pkill hostapd || true
+[2025-11-01T15:02:05.798522] [exec] pkill dnsmasq || true
+[2025-11-01T15:02:05.829241] [exec] hostapd /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf -B
+[2025-11-01T15:02:05.844036] [exec] dnsmasq -C /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf -k &
+[2025-11-01T15:02:05.845763] [network] AP started (real execution).
+[2025-11-01T15:05:06.517938] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:05:06.518499] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:05:06.518708] [network] Runtime files generated.
+[2025-11-01T15:05:06.519164] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T15:05:23.008320] [portal] Admin updated config via API (no pass required).
+[2025-11-01T15:05:26.566732] [portal] Admin updated config via API (no pass required).
+[2025-11-01T15:05:32.695798] [portal] Admin updated config via API (no pass required).
+[2025-11-01T15:05:36.217468] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:05:36.217866] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:05:36.218147] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-01T15:05:36.218395] [exec] ip link set wlxc01c30431f9b down
+[2025-11-01T15:05:36.257997] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-01T15:05:36.263269] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-01T15:05:36.268798] [exec] ip link set wlxc01c30431f9b up
+[2025-11-01T15:05:36.415631] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-01T15:05:36.418923] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-01T15:05:36.424267] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-01T15:05:36.428663] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j ACCEPT
+[2025-11-01T15:05:36.432530] [exec] pkill hostapd || true
+[2025-11-01T15:05:36.464919] [exec] pkill dnsmasq || true
+[2025-11-01T15:05:36.495509] [exec] hostapd /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf -B
+[2025-11-01T15:05:36.507586] [exec] dnsmasq -C /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf -k &
+[2025-11-01T15:05:36.509551] [network] AP started (real execution).
+[2025-11-01T15:16:30.618346] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:16:30.618799] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:16:30.619067] [network] Runtime files generated.
+[2025-11-01T15:16:30.619448] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T15:16:37.159307] [portal] Admin updated config via API (no pass required).
+[2025-11-01T15:16:41.168322] [portal] Admin updated config via API (no pass required).
+[2025-11-01T15:16:46.785929] [portal] Admin updated config via API (no pass required).
+[2025-11-01T15:16:50.542497] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:16:50.542912] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:16:50.543203] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-01T15:16:50.543429] [exec] ip link set wlxc01c30431f9b down
+[2025-11-01T15:16:50.580783] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-01T15:16:50.584369] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-01T15:16:50.589912] [exec] ip link set wlxc01c30431f9b up
+[2025-11-01T15:16:50.737390] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-01T15:16:50.740146] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-01T15:16:50.744307] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-01T15:16:50.748327] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j ACCEPT
+[2025-11-01T15:16:50.752384] [exec] pkill hostapd || true
+[2025-11-01T15:16:50.784094] [exec] pkill dnsmasq || true
+[2025-11-01T15:16:50.817907] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-01T15:16:51.206306] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-01T15:16:51.208191] [network] AP started (real execution).
+[2025-11-01T15:26:11.879380] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:26:11.880074] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:26:11.880359] [network] Runtime files generated.
+[2025-11-01T15:26:11.880674] [main] Portal error: module 'core.portal' has no attribute 'run'
+[2025-11-01T15:33:27.640394] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:33:27.641416] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:33:27.641909] [network] Runtime files generated.
+[2025-11-01T15:33:27.642399] [main] Portal error: cannot import name 'app' from 'core.portal' (/home/wilford-bordeos/Custom Tools/wifitool/core/portal.py)
+[2025-11-01T15:35:01.662694] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:35:01.663157] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:35:01.663358] [network] Runtime files generated.
+[2025-11-01T15:35:01.663658] [main] Portal error: cannot import name 'app' from 'core.portal' (/home/wilford-bordeos/Custom Tools/wifitool/core/portal.py)
+[2025-11-01T15:38:37.648934] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:38:37.649791] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:38:37.650021] [network] Runtime files generated.
+[2025-11-01T15:38:37.652666] [main] Portal error: core.portal does not expose run() or app; cannot start server
+[2025-11-01T15:44:24.825901] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:44:24.826433] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:44:24.826669] [network] Runtime files generated.
+[2025-11-01T15:44:24.836816] [main] Portal error: core.portal does not expose run() or app; cannot start server
+[2025-11-01T15:49:27.820227] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:49:27.820690] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:49:27.820930] [network] Runtime files generated.
+[2025-11-01T15:49:27.827791] [portal] run() called — no HTTP server is implemented in this module.
+[2025-11-01T15:51:13.664910] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:51:13.665446] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:51:13.665678] [network] Runtime files generated.
+[2025-11-01T15:51:13.938920] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-01T15:51:14.081129] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-01T15:51:14.081647] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-01T15:51:14.081898] [network] Runtime files generated.
+[2025-11-01T15:51:14.345701] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-02T00:31:37.096555] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T00:31:37.097389] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T00:31:37.097645] [network] Runtime files generated.
+[2025-11-02T00:31:37.386550] [portal] Starting Flask portal on 0.0.0.0:8080
+[2025-11-02T00:32:34.688584] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T00:32:34.689235] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T00:32:34.689486] [network] Runtime files generated.
+[2025-11-02T00:32:34.926201] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T00:32:35.046131] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T00:32:35.046608] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T00:32:35.046842] [network] Runtime files generated.
+[2025-11-02T00:32:35.279819] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T00:33:16.644250] [portal] Admin updated config via API (no pass required).
+[2025-11-02T00:33:20.204987] [portal] Admin updated config via API (no pass required).
+[2025-11-02T00:33:25.894050] [portal] Admin updated config via API (no pass required).
+[2025-11-02T00:33:30.070288] [network] Set portal_ip to 10.0.0.1 in config.json
+[2025-11-02T00:33:30.070779] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T00:33:30.071170] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T00:33:30.071403] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T00:33:30.071632] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T00:33:30.142877] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T00:33:30.147129] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T00:33:30.157317] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T00:33:30.308427] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T00:33:30.311638] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T00:33:30.320728] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T00:33:30.325011] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j ACCEPT
+[2025-11-02T00:33:30.329021] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T00:33:30.349534] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T00:33:30.353345] [exec] pkill hostapd || true
+[2025-11-02T00:33:30.389154] [exec] pkill dnsmasq || true
+[2025-11-02T00:33:30.422962] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T00:33:30.811901] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T00:33:30.813543] [network] AP started with captive portal redirection.
+[2025-11-02T00:38:56.293063] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T00:38:56.293596] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T00:38:56.293877] [network] Runtime files generated.
+[2025-11-02T00:38:56.524196] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T00:38:56.685567] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T00:38:56.686115] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T00:38:56.686374] [network] Runtime files generated.
+[2025-11-02T00:38:56.916893] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T00:52:29.561482] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T00:52:29.562152] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T00:52:29.562486] [network] Runtime files generated.
+[2025-11-02T00:52:29.826263] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T00:52:30.014091] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T00:52:30.014566] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T00:52:30.014795] [network] Runtime files generated.
+[2025-11-02T00:52:30.229090] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T00:53:55.938116] [portal] Admin updated config via API (no pass required).
+[2025-11-02T00:53:59.057358] [portal] Admin updated config via API (no pass required).
+[2025-11-02T00:54:03.563852] [portal] Admin updated config via API (no pass required).
+[2025-11-02T00:54:07.538630] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T00:54:07.539061] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T00:54:07.539345] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T00:54:07.539596] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T00:54:07.579845] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T00:54:07.583359] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T00:54:07.588390] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T00:54:07.736659] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T00:54:07.739408] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T00:54:07.743425] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T00:54:07.747318] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j ACCEPT
+[2025-11-02T00:54:07.751135] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T00:54:07.755012] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T00:54:07.759495] [exec] pkill hostapd || true
+[2025-11-02T00:54:07.792666] [exec] pkill dnsmasq || true
+[2025-11-02T00:54:07.824376] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T00:54:08.207655] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T00:54:08.209323] [network] AP started with captive portal redirection.
+[2025-11-02T00:59:50.748669] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T00:59:50.749323] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T00:59:50.749585] [network] Runtime files generated.
+[2025-11-02T00:59:51.173953] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:00:16.050389] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:00:16.051058] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:00:16.051281] [network] Runtime files generated.
+[2025-11-02T01:00:16.312565] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:00:16.499498] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:00:16.499966] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:00:16.500192] [network] Runtime files generated.
+[2025-11-02T01:00:16.778080] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:00:29.923159] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:00:35.950369] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:00:38.732500] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:00:38.732978] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:00:38.733206] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:00:38.733437] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:00:38.804022] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:00:38.808958] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:00:38.814345] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:00:38.963459] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:00:38.966277] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:00:38.970183] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:00:38.974204] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:00:38.978756] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:00:38.983187] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:00:38.987843] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:00:38.991831] [exec] pkill hostapd || true
+[2025-11-02T01:00:39.024031] [exec] pkill dnsmasq || true
+[2025-11-02T01:00:39.056901] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:00:39.191737] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:00:39.193453] [network] AP started with captive portal redirection.
+[2025-11-02T01:04:06.894373] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:04:06.895320] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:04:06.895558] [network] Runtime files generated.
+[2025-11-02T01:04:07.230143] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:04:34.481727] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:04:34.482264] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:04:34.482469] [network] Runtime files generated.
+[2025-11-02T01:04:34.732531] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:04:34.863733] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:04:34.864327] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:04:34.864581] [network] Runtime files generated.
+[2025-11-02T01:04:35.090071] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:06:55.070505] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:07:13.244678] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:07:21.002337] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:07:24.358473] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:07:24.359009] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:07:24.359324] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:07:24.359555] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:07:24.426265] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:07:24.464204] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:07:24.467569] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:07:24.473039] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:07:24.620410] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:07:24.626688] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:07:24.630295] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:07:24.634894] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:07:24.639001] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:07:24.644060] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:07:24.648032] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:07:24.652286] [exec] pkill hostapd || true
+[2025-11-02T01:07:24.684335] [exec] pkill dnsmasq || true
+[2025-11-02T01:07:24.716129] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:07:25.096459] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:07:25.098083] [network] AP started with captive portal redirection.
+[2025-11-02T01:10:39.600339] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:10:39.600992] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:10:39.601301] [network] Runtime files generated.
+[2025-11-02T01:10:39.834466] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:10:40.039130] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:10:40.039569] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:10:40.039797] [network] Runtime files generated.
+[2025-11-02T01:10:40.253215] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:10:58.865137] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:11:01.659831] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:11:08.154224] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:11:11.843490] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:11:11.843893] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:11:11.844174] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:11:11.844412] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:11:11.880182] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:11:11.959456] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:11:11.964070] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:11:11.968805] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:11:12.117173] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:11:12.119962] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:11:12.123745] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:11:12.127771] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:11:12.132061] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:11:12.136412] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:11:12.141205] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:11:12.145067] [exec] pkill hostapd || true
+[2025-11-02T01:11:12.178364] [exec] pkill dnsmasq || true
+[2025-11-02T01:11:12.211444] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:11:12.342088] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:11:12.343740] [network] AP started with captive portal redirection.
+[2025-11-02T01:11:36.101605] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:11:36.101898] [exec] pkill hostapd || true
+[2025-11-02T01:11:36.133518] [exec] pkill dnsmasq || true
+[2025-11-02T01:11:36.165442] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:11:36.177463] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:11:36.187365] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:11:36.199354] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:11:36.209509] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80 || true
+[2025-11-02T01:11:36.222490] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80 || true
+[2025-11-02T01:11:36.232467] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:11:36.235155] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:11:36.273314] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:11:36.303906] [network] AP stopped and cleaned up.
+[2025-11-02T01:11:54.075017] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:11:56.638856] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:12:04.063838] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:12:07.530478] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:12:07.530956] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:12:07.531211] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:12:07.531451] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:12:07.579869] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:12:07.621877] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:12:07.625741] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:12:07.630891] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:12:07.778500] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:12:07.781633] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:12:07.786326] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:12:07.790733] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:12:07.795444] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:12:07.800081] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:12:07.804720] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:12:07.809408] [exec] pkill hostapd || true
+[2025-11-02T01:12:07.846078] [exec] pkill dnsmasq || true
+[2025-11-02T01:12:07.878898] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:12:08.265947] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:12:08.267583] [network] AP started with captive portal redirection.
+[2025-11-02T01:12:34.542689] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:12:34.543197] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:12:34.543446] [network] Runtime files generated.
+[2025-11-02T01:12:34.764905] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:12:34.880425] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:12:34.880973] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:12:34.881233] [network] Runtime files generated.
+[2025-11-02T01:12:35.109739] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:12:39.786892] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:12:42.189564] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:12:48.740960] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:12:51.493535] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:12:51.494085] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:12:51.494350] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:12:51.494567] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:12:51.528260] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:12:51.600937] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:12:51.605790] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:12:51.611165] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:12:51.761499] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:12:51.764297] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:12:51.768069] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:12:51.772291] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:12:51.776335] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:12:51.780778] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:12:51.785044] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:12:51.789385] [exec] pkill hostapd || true
+[2025-11-02T01:12:51.824879] [exec] pkill dnsmasq || true
+[2025-11-02T01:12:51.861093] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:12:51.981309] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:12:51.983014] [network] AP started with captive portal redirection.
+[2025-11-02T01:13:11.089647] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:13:11.089939] [exec] pkill hostapd || true
+[2025-11-02T01:13:11.129782] [exec] pkill dnsmasq || true
+[2025-11-02T01:13:11.183850] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:13:11.200941] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:13:11.221543] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:13:11.239543] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:13:11.256527] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80 || true
+[2025-11-02T01:13:11.271532] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80 || true
+[2025-11-02T01:13:11.291556] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:13:11.299359] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:13:11.344455] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:13:11.400016] [network] AP stopped and cleaned up.
+[2025-11-02T01:13:14.221600] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:13:14.222099] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:13:14.222429] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:13:14.222732] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:13:14.262658] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:13:14.300558] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:13:14.305262] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:13:14.309544] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:13:14.455503] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:13:14.458348] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:13:14.462162] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:13:14.466088] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:13:14.470164] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:13:14.474193] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:13:14.478132] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:13:14.481744] [exec] pkill hostapd || true
+[2025-11-02T01:13:14.523699] [exec] pkill dnsmasq || true
+[2025-11-02T01:13:14.556294] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:13:14.946147] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:13:14.947748] [network] AP started with captive portal redirection.
+[2025-11-02T01:16:14.275565] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:16:14.276141] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:16:14.276376] [network] Runtime files generated.
+[2025-11-02T01:16:14.505130] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:16:14.637352] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:16:14.637926] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:16:14.638189] [network] Runtime files generated.
+[2025-11-02T01:16:14.869866] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:16:21.184561] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:16:23.859256] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:16:27.019818] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:16:29.564456] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:16:29.564933] [exec] pkill hostapd || true
+[2025-11-02T01:16:29.607693] [exec] pkill dnsmasq || true
+[2025-11-02T01:16:29.645451] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:16:29.658516] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:16:29.671353] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:16:29.683472] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:16:29.871422] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80 || true
+[2025-11-02T01:16:29.883768] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80 || true
+[2025-11-02T01:16:29.897564] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:16:29.900600] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:16:29.938119] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:16:29.973127] [network] AP stopped and cleaned up.
+[2025-11-02T01:16:32.784577] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:16:32.784978] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:16:32.785216] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:16:32.785475] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:16:32.827416] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:16:32.870512] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:16:32.875346] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:16:32.879878] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:16:33.025111] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:16:33.030270] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:16:33.033866] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:16:33.038130] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:16:33.041906] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:16:33.046077] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:16:33.049718] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80
+[2025-11-02T01:16:33.054046] [exec] pkill hostapd || true
+[2025-11-02T01:16:33.090844] [exec] pkill dnsmasq || true
+[2025-11-02T01:16:33.125464] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:16:33.506342] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:16:33.508014] [network] AP started with captive portal redirection.
+[2025-11-02T01:18:42.390820] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:18:42.391458] [exec] pkill hostapd || true
+[2025-11-02T01:18:42.440808] [exec] pkill dnsmasq || true
+[2025-11-02T01:18:42.478979] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:18:42.495347] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:18:42.507475] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:18:42.517341] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:18:42.563409] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:80 || true
+[2025-11-02T01:18:42.572437] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:80 || true
+[2025-11-02T01:18:42.582421] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:18:42.695089] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:18:42.733829] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:18:42.766601] [network] AP stopped and cleaned up.
+[2025-11-02T01:19:29.800404] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:19:29.801094] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:19:29.801399] [network] Runtime files generated.
+[2025-11-02T01:19:30.224899] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:19:40.061876] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:19:40.062405] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:19:40.062714] [network] Runtime files generated.
+[2025-11-02T01:19:40.384010] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:19:42.450790] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:19:42.451323] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:19:42.451595] [network] Runtime files generated.
+[2025-11-02T01:19:42.750090] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:19:48.395195] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:19:51.114161] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:19:56.131584] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:19:58.618582] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:19:58.619082] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:19:58.619361] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:19:58.619638] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:19:58.678776] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:19:58.794721] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:19:58.799291] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:19:58.804477] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:19:58.950696] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:19:58.953379] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:19:58.957101] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:19:58.960600] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:19:58.964894] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:19:58.968545] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:19:58.972762] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:19:58.976252] [exec] pkill hostapd || true
+[2025-11-02T01:19:59.007699] [exec] pkill dnsmasq || true
+[2025-11-02T01:19:59.039143] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:19:59.422025] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:19:59.423655] [network] AP started with captive portal redirection.
+[2025-11-02T01:20:58.179365] [portal] Admin UI access denied from 10.0.0.125
+[2025-11-02T01:22:59.281546] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:22:59.281832] [exec] pkill hostapd || true
+[2025-11-02T01:22:59.322170] [exec] pkill dnsmasq || true
+[2025-11-02T01:22:59.360080] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:22:59.371652] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:22:59.382340] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:22:59.393417] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:22:59.406439] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:22:59.417534] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:22:59.428384] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:22:59.453878] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:22:59.631679] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:22:59.667051] [network] AP stopped and cleaned up.
+[2025-11-02T01:24:05.791417] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:24:05.792089] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:24:05.792399] [network] Runtime files generated.
+[2025-11-02T01:24:06.178399] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:24:15.452218] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:24:15.452666] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:24:15.452899] [network] Runtime files generated.
+[2025-11-02T01:24:15.681203] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:24:15.807932] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:24:15.808658] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:24:15.808962] [network] Runtime files generated.
+[2025-11-02T01:24:16.028805] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:24:21.235367] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:24:24.416264] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:24:29.844005] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:24:32.919127] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:24:32.919654] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:24:32.919920] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:24:32.920169] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:24:32.965006] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:24:33.002306] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:24:33.009257] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:24:33.013748] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:24:33.159202] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:24:33.161851] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:24:33.165495] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:24:33.169092] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:24:33.173092] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:24:33.176852] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:24:33.181041] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:24:33.184646] [exec] pkill hostapd || true
+[2025-11-02T01:24:33.215809] [exec] pkill dnsmasq || true
+[2025-11-02T01:24:33.246946] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:24:33.623208] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:24:33.625100] [network] AP started with captive portal redirection.
+[2025-11-02T01:25:10.600400] [portal] Received submission from 10.0.0.37; stored.
+[2025-11-02T01:25:20.441193] [portal] Admin UI access denied from 10.0.0.37
+[2025-11-02T01:25:37.705201] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:25:37.705446] [exec] pkill hostapd || true
+[2025-11-02T01:25:37.749725] [exec] pkill dnsmasq || true
+[2025-11-02T01:25:37.782799] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:25:37.790431] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:25:37.804387] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:25:37.816535] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:25:37.827360] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:25:37.838637] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:25:37.851504] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:25:37.861233] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:25:38.041573] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:25:38.070725] [network] AP stopped and cleaned up.
+[2025-11-02T01:30:55.335771] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:30:55.336060] [exec] pkill hostapd || true
+[2025-11-02T01:30:55.379985] [exec] pkill dnsmasq || true
+[2025-11-02T01:30:55.417555] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:30:55.428694] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:30:55.440378] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:30:55.457440] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:30:55.471407] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:30:55.475450] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:30:55.480745] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:30:55.484077] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:30:55.522492] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:30:55.553880] [network] AP stopped and cleaned up.
+[2025-11-02T01:36:57.672262] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:36:57.672933] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:36:57.673203] [network] Runtime files generated.
+[2025-11-02T01:36:57.918930] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:36:58.067215] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:36:58.067814] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:36:58.068077] [network] Runtime files generated.
+[2025-11-02T01:36:58.569177] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:37:09.809424] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:37:12.612967] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:37:19.603305] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:37:23.214297] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:37:23.214786] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:37:23.215062] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:37:23.215306] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:37:23.264483] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:37:23.272359] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:37:23.279426] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:37:23.284941] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:37:23.437162] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:37:23.440045] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:37:23.444593] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:37:23.451030] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:37:23.459396] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:37:23.463502] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:37:23.470024] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:37:23.476485] [exec] pkill hostapd || true
+[2025-11-02T01:37:23.522896] [exec] pkill dnsmasq || true
+[2025-11-02T01:37:23.565518] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:37:23.961450] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:37:23.963426] [network] AP started with captive portal redirection.
+[2025-11-02T01:37:58.477253] [portal] Admin UI access denied from 10.0.0.133
+[2025-11-02T01:42:44.409253] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:42:44.409707] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:42:44.409933] [network] Runtime files generated.
+[2025-11-02T01:42:44.643182] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:42:44.757730] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:42:44.758144] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:42:44.758347] [network] Runtime files generated.
+[2025-11-02T01:42:44.972485] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:42:49.773542] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:42:52.497521] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:42:58.268287] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:43:02.007253] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:43:02.007747] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:43:02.008022] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:43:02.008234] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:43:02.061064] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:43:02.177257] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:43:02.188808] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:43:02.203007] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:43:02.372787] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:43:02.375676] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:43:02.379721] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:43:02.384511] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T01:43:02.391193] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:43:02.396739] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:43:02.403086] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:43:02.407859] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:43:02.414300] [exec] pkill hostapd || true
+[2025-11-02T01:43:02.462041] [exec] pkill dnsmasq || true
+[2025-11-02T01:43:02.503187] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:43:02.599682] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:43:02.601416] [network] AP started with captive portal redirection.
+[2025-11-02T01:43:22.247153] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:43:22.247422] [exec] pkill hostapd || true
+[2025-11-02T01:43:22.297701] [exec] pkill dnsmasq || true
+[2025-11-02T01:43:22.398753] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:43:22.417565] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:43:22.435756] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T01:43:22.456052] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:43:22.478367] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:43:22.499915] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:43:22.521520] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:43:22.541750] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:43:22.552868] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:43:22.604604] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:43:22.656427] [network] AP stopped and cleaned up.
+[2025-11-02T01:43:27.339677] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:43:27.340063] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:43:27.340342] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:43:27.340588] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:43:27.391841] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:43:27.466199] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:43:27.474944] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:43:27.480288] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:43:27.626979] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:43:27.629858] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:43:27.633530] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:43:27.638691] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T01:43:27.644841] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:43:27.653416] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:43:27.658443] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:43:27.665671] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:43:27.672940] [exec] pkill hostapd || true
+[2025-11-02T01:43:27.716579] [exec] pkill dnsmasq || true
+[2025-11-02T01:43:27.757133] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:43:28.139707] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:43:28.141307] [network] AP started with captive portal redirection.
+[2025-11-02T01:47:45.205922] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:47:45.209147] [exec] pkill hostapd || true
+[2025-11-02T01:47:45.264543] [exec] pkill dnsmasq || true
+[2025-11-02T01:47:45.361084] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:47:45.382989] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:47:45.408406] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T01:47:45.434585] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:47:45.458228] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:47:45.574635] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:47:45.591165] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:47:45.607098] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:47:45.612474] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:47:45.651965] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:47:45.694849] [network] AP stopped and cleaned up.
+[2025-11-02T01:50:16.920354] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:50:16.921363] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:50:16.922109] [network] Runtime files generated.
+[2025-11-02T01:50:17.249965] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:50:23.638257] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:50:23.638821] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:50:23.639110] [network] Runtime files generated.
+[2025-11-02T01:50:23.871289] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:50:23.980381] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:50:23.980879] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:50:23.981103] [network] Runtime files generated.
+[2025-11-02T01:50:24.197967] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:50:28.943055] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:50:31.433565] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:50:34.156536] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:50:37.006377] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:50:37.006750] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:50:37.007022] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:50:37.007259] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:50:37.069184] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:50:37.097935] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:50:37.105192] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:50:37.112363] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:50:37.259405] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:50:37.262332] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:50:37.267932] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:50:37.275043] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T01:50:37.281954] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:50:37.292270] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:50:37.296984] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:50:37.304744] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T01:50:37.338156] [exec] pkill hostapd || true
+[2025-11-02T01:50:37.400307] [exec] pkill dnsmasq || true
+[2025-11-02T01:50:37.451726] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:50:37.840886] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:50:37.842516] [network] AP started with captive portal redirection.
+[2025-11-02T01:51:17.727942] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:51:17.728216] [exec] pkill hostapd || true
+[2025-11-02T01:51:17.770812] [exec] pkill dnsmasq || true
+[2025-11-02T01:51:17.816979] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:51:17.824519] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:51:17.838464] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T01:51:17.850209] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:51:17.864387] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:51:18.032351] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:51:18.043219] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T01:51:18.050223] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:51:18.056958] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:51:18.097455] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:51:18.137001] [network] AP stopped and cleaned up.
+[2025-11-02T01:52:50.424728] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:52:50.425086] [exec] pkill hostapd || true
+[2025-11-02T01:52:50.474711] [exec] pkill dnsmasq || true
+[2025-11-02T01:52:50.521455] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:52:50.533762] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:52:50.543318] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T01:52:50.549752] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:52:50.565263] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:52:50.577748] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:52:50.592393] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T01:52:50.600190] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:52:50.605879] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:52:51.464987] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:52:51.465319] [exec] pkill hostapd || true
+[2025-11-02T01:52:51.530880] [exec] pkill dnsmasq || true
+[2025-11-02T01:52:51.584748] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:52:51.597126] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:52:51.616909] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T01:52:51.623750] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:52:51.635710] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:52:53.935289] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:52:53.935574] [exec] pkill hostapd || true
+[2025-11-02T01:52:53.979068] [exec] pkill dnsmasq || true
+[2025-11-02T01:52:54.026468] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:52:54.037495] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:52:54.050681] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T01:52:54.058242] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:52:54.072589] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:52:57.732764] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:52:57.738362] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:52:57.745428] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T01:52:57.754298] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:52:57.756841] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:52:57.764839] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:52:57.768900] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T01:52:57.777231] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:52:57.782453] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:52:57.790822] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:52:57.799189] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:52:57.822551] [network] AP stopped and cleaned up.
+[2025-11-02T01:52:57.852926] [network] AP stopped and cleaned up.
+[2025-11-02T01:52:57.881818] [network] AP stopped and cleaned up.
+[2025-11-02T01:54:01.295800] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:54:04.911053] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:54:07.265051] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:54:09.902850] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:54:09.903293] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:54:09.903562] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:54:09.903816] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:54:09.947583] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:54:09.953961] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:54:09.959227] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:54:09.963818] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:54:10.111167] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:54:10.117304] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:54:10.125667] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:54:10.131190] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T01:54:10.136962] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:54:10.142399] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:54:10.146496] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:54:10.150545] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T01:54:10.163562] [exec] pkill hostapd || true
+[2025-11-02T01:54:10.207340] [exec] pkill dnsmasq || true
+[2025-11-02T01:54:10.247643] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:54:10.631731] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:54:10.633371] [network] AP started with captive portal redirection.
+[2025-11-02T01:54:24.617753] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:54:24.617997] [exec] pkill hostapd || true
+[2025-11-02T01:54:24.661050] [exec] pkill dnsmasq || true
+[2025-11-02T01:54:24.698419] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:54:24.713407] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:54:24.727428] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T01:54:24.736870] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:54:24.748593] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:54:24.763385] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:54:24.775544] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T01:54:24.779942] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:54:24.783181] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:54:24.823717] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:54:24.860718] [network] AP stopped and cleaned up.
+[2025-11-02T01:54:28.184657] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:54:28.185077] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:54:28.185364] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:54:28.185576] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:54:28.233026] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:54:28.267559] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:54:28.275934] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:54:28.280645] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:54:28.430255] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:54:28.433322] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:54:28.437590] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:54:28.444206] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T01:54:28.449625] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:54:28.456448] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:54:28.462121] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:54:28.467307] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T01:54:28.479431] [exec] pkill hostapd || true
+[2025-11-02T01:54:28.531135] [exec] pkill dnsmasq || true
+[2025-11-02T01:54:28.574701] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:54:28.964241] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:54:28.966168] [network] AP started with captive portal redirection.
+[2025-11-02T01:54:55.231393] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:54:55.231707] [exec] pkill hostapd || true
+[2025-11-02T01:54:55.274118] [exec] pkill dnsmasq || true
+[2025-11-02T01:54:55.314945] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:54:55.324467] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:54:55.335198] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T01:54:55.346504] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:54:55.355521] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:54:55.369471] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:54:55.384975] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T01:54:55.390535] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:54:55.394054] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:54:55.438257] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:54:55.476820] [network] AP stopped and cleaned up.
+[2025-11-02T01:55:01.802385] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:55:01.802982] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:55:01.803268] [network] Runtime files generated.
+[2025-11-02T01:55:02.036092] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:55:02.156512] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:55:02.156990] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:55:02.157196] [network] Runtime files generated.
+[2025-11-02T01:55:02.381434] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T01:55:19.881125] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:55:22.989646] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:55:30.472974] [portal] Admin updated config via API (no pass required).
+[2025-11-02T01:55:32.850738] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T01:55:32.851170] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T01:55:32.851443] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T01:55:32.851733] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T01:55:32.900773] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:55:32.937960] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T01:55:32.942652] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T01:55:32.948754] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T01:55:33.098329] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T01:55:33.101329] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T01:55:33.105463] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T01:55:33.112607] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T01:55:33.116893] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:55:33.121476] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T01:55:33.128401] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T01:55:33.133721] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T01:55:33.144636] [exec] pkill hostapd || true
+[2025-11-02T01:55:33.185800] [exec] pkill dnsmasq || true
+[2025-11-02T01:55:33.225564] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T01:55:33.608465] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T01:55:33.610156] [network] AP started with captive portal redirection.
+[2025-11-02T01:57:50.807235] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T01:57:50.807489] [exec] pkill hostapd || true
+[2025-11-02T01:57:50.849859] [exec] pkill dnsmasq || true
+[2025-11-02T01:57:50.897255] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T01:57:50.906655] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T01:57:50.917387] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T01:57:50.928916] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:57:50.940436] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T01:57:51.085340] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T01:57:51.098734] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T01:57:51.102989] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T01:57:51.106811] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T01:57:51.147036] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T01:57:51.186073] [network] AP stopped and cleaned up.
+[2025-11-02T02:04:46.903880] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:04:46.904427] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:04:46.904677] [network] Runtime files generated.
+[2025-11-02T02:04:47.115745] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T02:04:47.226077] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:04:47.226499] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:04:47.226714] [network] Runtime files generated.
+[2025-11-02T02:04:47.440464] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T02:04:54.844599] [portal] Admin updated config via API (no pass required).
+[2025-11-02T02:04:57.079925] [portal] Admin updated config via API (no pass required).
+[2025-11-02T02:05:02.374397] [portal] Admin updated config via API (no pass required).
+[2025-11-02T02:05:05.031646] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:05:05.032120] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:05:05.032383] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T02:05:05.032596] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T02:05:05.083572] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T02:05:05.114924] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T02:05:05.124765] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T02:05:05.129402] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T02:05:05.277684] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T02:05:05.280510] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T02:05:05.284365] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T02:05:05.289205] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T02:05:05.295543] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T02:05:05.300211] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T02:05:05.306552] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T02:05:05.311384] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T02:05:05.321714] [exec] pkill hostapd || true
+[2025-11-02T02:05:05.363029] [exec] pkill dnsmasq || true
+[2025-11-02T02:05:05.405853] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T02:05:05.797930] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T02:05:05.799583] [network] AP started with captive portal redirection.
+[2025-11-02T02:05:35.105335] [portal] Received submission from 10.0.0.111; stored.
+[2025-11-02T02:07:12.277367] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T02:07:12.277720] [exec] pkill hostapd || true
+[2025-11-02T02:07:12.332249] [exec] pkill dnsmasq || true
+[2025-11-02T02:07:12.394214] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T02:07:12.413916] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T02:07:12.434221] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T02:07:12.450028] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T02:07:12.469215] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T02:07:12.635671] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T02:07:12.648083] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T02:07:12.657138] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T02:07:12.665702] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T02:07:12.713009] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T02:07:12.753833] [network] AP stopped and cleaned up.
+[2025-11-02T02:09:04.739131] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:09:04.739862] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:09:04.740136] [network] Runtime files generated.
+[2025-11-02T02:09:04.961624] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T02:09:05.265944] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:09:05.266433] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:09:05.266667] [network] Runtime files generated.
+[2025-11-02T02:09:05.477915] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T02:09:08.622454] [portal] Admin updated config via API (no pass required).
+[2025-11-02T02:09:11.105298] [portal] Admin updated config via API (no pass required).
+[2025-11-02T02:09:16.553740] [portal] Admin updated config via API (no pass required).
+[2025-11-02T02:09:19.653223] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:09:19.653592] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:09:19.653883] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T02:09:19.654175] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T02:09:19.702140] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T02:09:19.741213] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T02:09:19.750221] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T02:09:19.755563] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T02:09:19.903195] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T02:09:19.906009] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T02:09:19.909894] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T02:09:19.914674] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T02:09:19.921014] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T02:09:19.925593] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T02:09:19.931278] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T02:09:19.936545] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T02:09:19.945877] [exec] pkill hostapd || true
+[2025-11-02T02:09:19.987830] [exec] pkill dnsmasq || true
+[2025-11-02T02:09:20.027039] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T02:09:20.416775] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T02:09:20.418467] [network] AP started with captive portal redirection.
+[2025-11-02T02:13:02.589207] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:13:02.592524] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:13:02.593322] [network] Runtime files generated.
+[2025-11-02T02:13:02.906703] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T02:13:30.356368] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:13:30.356923] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:13:30.357154] [network] Runtime files generated.
+[2025-11-02T02:13:30.614735] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T02:13:30.788483] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:13:30.788999] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:13:30.789188] [network] Runtime files generated.
+[2025-11-02T02:13:31.019896] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T02:13:37.093901] [portal] Admin updated config via API (no pass required).
+[2025-11-02T02:13:40.047298] [portal] Admin updated config via API (no pass required).
+[2025-11-02T02:13:45.593200] [portal] Admin updated config via API (no pass required).
+[2025-11-02T02:13:48.879900] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:13:48.880322] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:13:48.880641] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T02:13:48.880867] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T02:13:48.928499] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T02:13:49.024956] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T02:13:49.030154] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T02:13:49.037565] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T02:13:49.186731] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T02:13:49.189491] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T02:13:49.193469] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T02:13:49.198247] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T02:13:49.204934] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T02:13:49.211415] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T02:13:49.217472] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T02:13:49.222958] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T02:13:49.235874] [exec] pkill hostapd || true
+[2025-11-02T02:13:49.274828] [exec] pkill dnsmasq || true
+[2025-11-02T02:13:49.315438] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T02:13:49.700676] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T02:13:49.702301] [network] AP started with captive portal redirection.
+[2025-11-02T02:17:39.059946] [portal] Received submission from 10.0.0.66; stored.
+[2025-11-02T02:18:18.268757] [portal] Received submission from 10.0.0.66; stored.
+[2025-11-02T02:25:31.091030] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T02:25:31.099973] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T02:25:31.101897] [network] Runtime files generated.
+[2025-11-02T02:25:32.078325] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T02:42:48.775966] [portal] Received submission from 10.0.0.66; stored.
+[2025-11-02T03:10:40.289365] [portal] Received submission from 10.0.0.66; stored.
+[2025-11-02T03:12:41.105309] [portal] Received submission from 10.0.0.66; stored.
+[2025-11-02T03:12:58.713971] [portal] Received submission from 10.0.0.66; stored.
+[2025-11-02T03:13:22.417006] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:14:48.519117] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:14:48.519394] [exec] pkill hostapd || true
+[2025-11-02T03:14:48.555243] [exec] pkill dnsmasq || true
+[2025-11-02T03:14:48.587560] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:14:48.609363] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:14:48.623410] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:14:48.639460] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:14:48.648393] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:14:48.657569] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:14:48.668661] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:14:48.674907] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:14:48.707672] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:14:48.891912] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:14:48.941594] [network] AP stopped and cleaned up.
+[2025-11-02T03:16:34.554811] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:16:56.688225] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:17:11.261424] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:18:04.804391] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:18:07.160169] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:18:11.380536] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:18:13.529480] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:18:13.530308] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:18:13.530631] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T03:18:13.530891] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T03:18:13.579144] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:18:13.617023] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T03:18:13.621205] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T03:18:13.626390] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T03:18:13.773333] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T03:18:13.776477] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T03:18:13.781575] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T03:18:13.786161] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T03:18:13.789915] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:18:13.793708] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:18:13.798416] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T03:18:13.801945] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T03:18:13.812490] [exec] pkill hostapd || true
+[2025-11-02T03:18:13.848315] [exec] pkill dnsmasq || true
+[2025-11-02T03:18:13.879828] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T03:18:14.270629] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T03:18:14.272210] [network] AP started with captive portal redirection.
+[2025-11-02T03:19:00.652910] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:19:00.653266] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:19:00.653517] [network] Runtime files generated.
+[2025-11-02T03:19:00.653772] [portal] Admin triggered runtime generation.
+[2025-11-02T03:24:04.887208] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:24:04.888126] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:24:04.888424] [network] Runtime files generated.
+[2025-11-02T03:24:05.398666] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T03:24:32.418354] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:24:34.683633] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:24:38.274727] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:24:42.804161] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:24:42.804554] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:24:42.804860] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T03:24:42.805091] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T03:24:42.852706] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:24:42.947742] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T03:24:42.952524] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T03:24:42.958287] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T03:24:43.107333] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T03:24:43.110396] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T03:24:43.114799] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T03:24:43.119356] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T03:24:43.123148] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:24:43.127008] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:24:43.131665] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T03:24:43.135713] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T03:24:43.146432] [exec] pkill hostapd || true
+[2025-11-02T03:24:43.178378] [exec] pkill dnsmasq || true
+[2025-11-02T03:24:43.210742] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T03:24:43.326562] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T03:24:43.328223] [network] AP started with captive portal redirection.
+[2025-11-02T03:25:05.336990] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:25:05.337241] [exec] pkill hostapd || true
+[2025-11-02T03:25:05.376751] [exec] pkill dnsmasq || true
+[2025-11-02T03:25:05.409714] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:25:05.418352] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:25:05.429449] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:25:05.440575] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:25:05.455418] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:25:05.471557] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:25:05.484574] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:25:05.488415] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:25:05.491401] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:25:05.531534] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:25:05.570182] [network] AP stopped and cleaned up.
+[2025-11-02T03:25:07.566824] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:25:07.567188] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:25:07.567471] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T03:25:07.567754] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T03:25:07.607365] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:25:07.645415] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T03:25:07.650720] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T03:25:07.655987] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T03:25:07.803387] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T03:25:07.806164] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T03:25:07.810134] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T03:25:07.813545] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T03:25:07.817460] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:25:07.821136] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:25:07.825490] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T03:25:07.829342] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T03:25:07.843479] [exec] pkill hostapd || true
+[2025-11-02T03:25:07.874984] [exec] pkill dnsmasq || true
+[2025-11-02T03:25:07.906826] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T03:25:08.292491] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T03:25:08.294334] [network] AP started with captive portal redirection.
+[2025-11-02T03:32:53.334788] [portal] Admin UI access denied from 10.0.0.76
+[2025-11-02T03:32:57.188766] [portal] Admin UI access denied from 10.0.0.76
+[2025-11-02T03:33:48.106547] [portal] Received submission from 10.0.0.76; stored.
+[2025-11-02T03:37:24.992138] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:37:24.992650] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:37:24.992879] [network] Runtime files generated.
+[2025-11-02T03:37:25.454625] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T03:37:50.816248] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:37:50.816978] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:37:50.817283] [network] Runtime files generated.
+[2025-11-02T03:37:51.102355] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T03:42:35.264221] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:42:35.264733] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:42:35.264984] [network] Runtime files generated.
+[2025-11-02T03:42:35.609865] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T03:42:35.754714] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:42:35.755151] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:42:35.755369] [network] Runtime files generated.
+[2025-11-02T03:42:36.205707] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T03:42:40.786901] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:42:44.719800] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:42:47.024337] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:42:47.024637] [exec] pkill hostapd || true
+[2025-11-02T03:42:47.060652] [exec] pkill dnsmasq || true
+[2025-11-02T03:42:47.097944] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:42:47.114199] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:42:47.127349] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:42:47.140227] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:42:47.153307] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:42:47.264246] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:42:47.275555] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:42:47.279972] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:42:47.284124] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:42:47.324134] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:42:47.371983] [network] AP stopped and cleaned up.
+[2025-11-02T03:42:48.134837] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:42:48.135098] [exec] pkill hostapd || true
+[2025-11-02T03:42:48.169774] [exec] pkill dnsmasq || true
+[2025-11-02T03:42:48.200521] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:42:48.212515] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:42:48.229347] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:42:48.239245] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:42:48.252196] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:42:48.266321] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:42:48.286318] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:42:48.289873] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:42:48.292586] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:42:48.314204] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:42:48.314461] [exec] pkill hostapd || true
+[2025-11-02T03:42:48.348386] [exec] pkill dnsmasq || true
+[2025-11-02T03:42:48.370822] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:42:48.396619] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:42:48.401277] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:42:48.407422] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:42:48.414204] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:42:48.420092] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:42:48.422180] [network] AP stopped and cleaned up.
+[2025-11-02T03:42:48.426304] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:42:48.437433] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:42:48.445042] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:42:48.447627] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:42:48.451344] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:42:48.478927] [network] AP stopped and cleaned up.
+[2025-11-02T03:42:50.923487] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:42:52.500228] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:42:57.745311] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:42:59.392409] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:42:59.392771] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:42:59.393061] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T03:42:59.393346] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T03:42:59.423778] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:42:59.427632] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T03:42:59.433069] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T03:42:59.437417] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T03:42:59.584116] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T03:42:59.586983] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T03:42:59.590980] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T03:42:59.594457] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T03:42:59.598327] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:42:59.601874] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:42:59.606164] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T03:42:59.609792] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T03:42:59.624392] [exec] pkill hostapd || true
+[2025-11-02T03:42:59.656279] [exec] pkill dnsmasq || true
+[2025-11-02T03:42:59.688173] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T03:43:00.077066] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T03:43:00.078720] [network] AP started with captive portal redirection.
+[2025-11-02T03:43:22.831499] [portal] Admin UI access denied from 10.0.0.76
+[2025-11-02T03:43:34.754473] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:43:34.755056] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:43:34.755327] [network] Runtime files generated.
+[2025-11-02T03:43:35.093073] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T03:43:39.233327] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:43:39.233615] [exec] pkill hostapd || true
+[2025-11-02T03:43:39.276509] [exec] pkill dnsmasq || true
+[2025-11-02T03:43:39.308898] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:43:39.318234] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:43:39.327254] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:43:39.338509] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:43:39.351371] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:43:39.541380] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:43:39.556065] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:43:39.559952] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:43:39.563220] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:43:39.599800] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:43:39.628039] [network] AP stopped and cleaned up.
+[2025-11-02T03:43:40.229474] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:43:40.229892] [exec] pkill hostapd || true
+[2025-11-02T03:43:40.262994] [exec] pkill dnsmasq || true
+[2025-11-02T03:43:40.294667] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:43:40.298114] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:43:40.302039] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:43:40.305671] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:43:40.311071] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:43:40.315073] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:43:40.319227] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:43:40.322816] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:43:40.326110] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:43:40.402174] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:43:40.435805] [network] AP stopped and cleaned up.
+[2025-11-02T03:43:40.743556] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:43:40.743851] [exec] pkill hostapd || true
+[2025-11-02T03:43:40.775209] [exec] pkill dnsmasq || true
+[2025-11-02T03:43:40.806959] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:43:40.810469] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:43:40.814580] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:43:40.817929] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:43:40.823058] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:43:40.826815] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:43:40.831055] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:43:40.835092] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:43:40.837816] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:43:40.841600] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:43:40.868796] [network] AP stopped and cleaned up.
+[2025-11-02T03:43:40.923619] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:43:40.923902] [exec] pkill hostapd || true
+[2025-11-02T03:43:40.955716] [exec] pkill dnsmasq || true
+[2025-11-02T03:43:40.987100] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:43:40.990458] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:43:40.994284] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:43:40.997852] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:43:41.002475] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:43:41.006420] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:43:41.010528] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:43:41.014729] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:43:41.017295] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:43:41.021306] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:43:41.048291] [network] AP stopped and cleaned up.
+[2025-11-02T03:43:44.079387] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:43:45.650246] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:43:47.185398] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:43:48.216223] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:43:48.216609] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:43:48.216885] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T03:43:48.217149] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T03:43:48.251970] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:43:48.255658] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T03:43:48.260642] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T03:43:48.265161] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T03:43:48.410659] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T03:43:48.413495] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T03:43:48.417387] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T03:43:48.420875] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T03:43:48.424812] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:43:48.428448] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:43:48.432805] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T03:43:48.436369] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T03:43:48.450449] [exec] pkill hostapd || true
+[2025-11-02T03:43:48.481907] [exec] pkill dnsmasq || true
+[2025-11-02T03:43:48.513670] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T03:43:48.900180] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T03:43:48.901847] [network] AP started with captive portal redirection.
+[2025-11-02T03:44:07.655050] [portal] Received submission from 10.0.0.76; stored.
+[2025-11-02T03:44:20.716453] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:44:20.716750] [exec] pkill hostapd || true
+[2025-11-02T03:44:20.750267] [exec] pkill dnsmasq || true
+[2025-11-02T03:44:20.782500] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:44:20.792276] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:44:20.805275] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:44:20.822207] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:44:20.831295] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:44:20.870279] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:44:20.884296] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:44:20.887939] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:44:21.002861] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:44:21.044436] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:44:21.072917] [network] AP stopped and cleaned up.
+[2025-11-02T03:44:22.955395] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:44:22.955662] [exec] pkill hostapd || true
+[2025-11-02T03:44:22.986713] [exec] pkill dnsmasq || true
+[2025-11-02T03:44:23.017936] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:44:23.021363] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:44:23.025246] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:44:23.028587] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:44:23.033274] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:44:23.037416] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:44:23.041315] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:44:23.045370] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:44:23.048050] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:44:23.084029] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:44:23.111386] [network] AP stopped and cleaned up.
+[2025-11-02T03:44:23.135122] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:44:23.135431] [exec] pkill hostapd || true
+[2025-11-02T03:44:23.169367] [exec] pkill dnsmasq || true
+[2025-11-02T03:44:23.200873] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:44:23.204251] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:44:23.208111] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:44:23.211448] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:44:23.215684] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:44:23.219495] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:44:23.223801] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:44:23.227589] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:44:23.230820] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:44:23.234684] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:44:23.260848] [network] AP stopped and cleaned up.
+[2025-11-02T03:50:30.743243] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:50:30.743949] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:50:30.744227] [network] Runtime files generated.
+[2025-11-02T03:50:31.152595] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T03:50:37.374465] [portal] Admin UI access denied from 127.0.0.1
+[2025-11-02T03:50:46.455818] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:50:46.457210] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:50:46.457593] [network] Runtime files generated.
+[2025-11-02T03:50:46.892978] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T03:53:28.624552] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:53:28.625076] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:53:28.625330] [network] Runtime files generated.
+[2025-11-02T03:53:28.903560] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T03:53:33.933000] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T03:53:33.933300] [exec] pkill hostapd || true
+[2025-11-02T03:53:33.976061] [exec] pkill dnsmasq || true
+[2025-11-02T03:53:34.014880] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T03:53:34.020000] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T03:53:34.025460] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T03:53:34.029810] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:53:34.034486] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T03:53:34.038853] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T03:53:34.044111] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T03:53:34.048263] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T03:53:34.051452] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:53:34.092156] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T03:53:34.133130] [network] AP stopped and cleaned up.
+[2025-11-02T03:53:35.603633] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:53:36.907895] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:53:40.697288] [portal] Admin updated config via API (no pass required).
+[2025-11-02T03:53:43.250982] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:53:43.251430] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:53:43.251669] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T03:53:43.251920] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T03:53:43.285124] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T03:53:43.288851] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T03:53:43.292661] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T03:53:43.297145] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T03:53:43.443477] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T03:53:43.446448] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T03:53:43.450384] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T03:53:43.454661] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T03:53:43.459453] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:53:43.464621] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T03:53:43.468758] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T03:53:43.472997] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T03:53:43.487018] [exec] pkill hostapd || true
+[2025-11-02T03:53:43.524224] [exec] pkill dnsmasq || true
+[2025-11-02T03:53:43.562953] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T03:53:43.948952] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T03:53:43.950771] [network] AP started with captive portal redirection.
+[2025-11-02T03:54:53.461247] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:54:53.461850] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:54:53.462047] [network] Runtime files generated.
+[2025-11-02T03:54:53.676105] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T03:55:04.869659] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T03:55:04.870108] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T03:55:04.870361] [network] Runtime files generated.
+[2025-11-02T03:55:05.110551] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T04:43:37.410327] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T04:43:37.410759] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T04:43:37.410983] [network] Runtime files generated.
+[2025-11-02T04:43:37.686291] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T04:43:51.534590] [portal] Admin updated config via API (no pass required).
+[2025-11-02T04:43:52.848307] [portal] Admin updated config via API (no pass required).
+[2025-11-02T04:43:56.012050] [portal] Admin updated config via API (no pass required).
+[2025-11-02T04:43:57.454566] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T04:43:57.454876] [exec] pkill hostapd || true
+[2025-11-02T04:43:57.491999] [exec] pkill dnsmasq || true
+[2025-11-02T04:43:57.527807] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T04:43:57.538399] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T04:43:57.551395] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T04:43:57.562442] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T04:43:57.577406] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T04:43:57.699443] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T04:43:57.707539] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T04:43:57.711594] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T04:43:57.715021] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T04:43:57.761389] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T04:43:57.797043] [network] AP stopped and cleaned up.
+[2025-11-02T04:43:58.588124] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T04:43:58.588481] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T04:43:58.588775] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T04:43:58.589108] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T04:43:58.619447] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T04:43:58.695303] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T04:43:58.699879] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T04:43:58.703989] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T04:43:58.849225] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T04:43:58.852013] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T04:43:58.855934] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T04:43:58.859401] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T04:43:58.863352] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T04:43:58.866924] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T04:43:58.871103] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T04:43:58.874681] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T04:43:58.889519] [exec] pkill hostapd || true
+[2025-11-02T04:43:58.924403] [exec] pkill dnsmasq || true
+[2025-11-02T04:43:58.959125] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T04:43:59.351771] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T04:43:59.356205] [network] AP started with captive portal redirection.
+[2025-11-02T04:44:17.997406] [portal] Admin UI access denied from 10.0.0.76
+[2025-11-02T04:44:30.058806] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T04:44:30.059340] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T04:44:30.059529] [network] Runtime files generated.
+[2025-11-02T04:44:30.278365] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T04:44:56.892623] [portal] Admin UI access denied from 10.0.0.76
+[2025-11-02T04:44:59.589340] [portal] Admin UI access denied from 10.0.0.76
+[2025-11-02T04:45:23.634905] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T04:45:23.635432] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T04:45:23.635627] [network] Runtime files generated.
+[2025-11-02T04:45:23.868726] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T04:45:30.267234] [portal] Admin updated config via API (no pass required).
+[2025-11-02T04:45:31.702500] [portal] Admin updated config via API (no pass required).
+[2025-11-02T04:45:38.957760] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T04:45:38.958152] [exec] pkill hostapd || true
+[2025-11-02T04:45:38.993761] [exec] pkill dnsmasq || true
+[2025-11-02T04:45:39.034780] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T04:45:39.051433] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T04:45:39.064366] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T04:45:39.075523] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T04:45:39.083473] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T04:45:39.109421] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T04:45:39.117471] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T04:45:39.121611] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T04:45:39.244244] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T04:45:39.284427] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T04:45:39.312548] [network] AP stopped and cleaned up.
+[2025-11-02T04:45:42.555745] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T04:45:42.556013] [exec] pkill hostapd || true
+[2025-11-02T04:45:42.592595] [exec] pkill dnsmasq || true
+[2025-11-02T04:45:42.627099] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T04:45:42.630526] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T04:45:42.635153] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T04:45:42.638495] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T04:45:42.642590] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T04:45:42.646371] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T04:45:42.650343] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T04:45:42.654207] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T04:45:42.657345] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T04:45:42.696619] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T04:45:42.725309] [network] AP stopped and cleaned up.
+[2025-11-02T04:45:46.877208] [portal] Admin updated config via API (no pass required).
+[2025-11-02T04:45:48.053463] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T04:45:48.053950] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T04:45:48.054176] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T04:45:48.054403] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T04:45:48.092994] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T04:45:48.096941] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T04:45:48.102254] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T04:45:48.107750] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T04:45:48.253572] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T04:45:48.256337] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T04:45:48.260107] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T04:45:48.264226] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T04:45:48.270301] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T04:45:48.277709] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T04:45:48.283583] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T04:45:48.290257] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T04:45:48.301482] [exec] pkill hostapd || true
+[2025-11-02T04:45:48.336728] [exec] pkill dnsmasq || true
+[2025-11-02T04:45:48.371285] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T04:45:48.755057] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T04:45:48.756726] [network] AP started with captive portal redirection.
+[2025-11-02T04:47:05.556088] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T04:47:05.556874] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T04:47:05.557677] [network] Runtime files generated.
+[2025-11-02T04:47:05.997245] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T04:52:20.669041] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T04:52:20.669565] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T04:52:20.669803] [network] Runtime files generated.
+[2025-11-02T04:52:20.973038] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T04:52:21.104048] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T04:52:21.104473] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T04:52:21.104743] [network] Runtime files generated.
+[2025-11-02T04:52:21.386298] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T04:52:42.624044] [portal] Admin updated config via API (no pass required).
+[2025-11-02T04:52:44.115680] [portal] Admin updated config via API (no pass required).
+[2025-11-02T04:52:52.122164] [portal] Admin updated config via API (no pass required).
+[2025-11-02T04:52:57.711577] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T04:52:57.712056] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T04:52:57.712335] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T04:52:57.712584] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T04:52:57.751521] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T04:52:57.854992] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T04:52:57.859971] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T04:52:57.864344] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T04:52:58.011615] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T04:52:58.014695] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T04:52:58.019294] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T04:52:58.023328] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T04:52:58.027427] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T04:52:58.031389] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T04:52:58.036105] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T04:52:58.040324] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T04:52:58.049435] [exec] pkill hostapd || true
+[2025-11-02T04:52:58.086487] [exec] pkill dnsmasq || true
+[2025-11-02T04:52:58.118454] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T04:52:58.231929] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T04:52:58.233618] [network] AP started with captive portal redirection.
+[2025-11-02T04:53:08.680502] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T04:53:08.680770] [exec] pkill hostapd || true
+[2025-11-02T04:53:08.725902] [exec] pkill dnsmasq || true
+[2025-11-02T04:53:08.775418] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T04:53:08.793546] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T04:53:08.808583] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T04:53:08.827917] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T04:53:08.846993] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T04:53:08.868167] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T04:53:08.884719] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T04:53:08.892905] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T04:53:08.898501] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T04:53:08.941891] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T04:53:08.988586] [network] AP stopped and cleaned up.
+[2025-11-02T04:53:14.719164] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T04:53:14.719880] [exec] pkill hostapd || true
+[2025-11-02T04:53:14.751463] [exec] pkill dnsmasq || true
+[2025-11-02T04:53:14.782721] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T04:53:14.795607] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T04:53:14.808535] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T04:53:14.817417] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T04:53:14.829489] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T04:53:14.842446] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T04:53:14.858574] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T04:53:14.862158] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T04:53:14.864860] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T04:53:14.907502] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T04:53:14.934470] [network] AP stopped and cleaned up.
+[2025-11-02T04:53:16.141183] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T04:53:16.141520] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T04:53:16.141786] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T04:53:16.142072] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T04:53:16.180360] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T04:53:16.185638] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T04:53:16.190355] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T04:53:16.194807] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T04:53:16.340799] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T04:53:16.343541] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T04:53:16.347465] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T04:53:16.350974] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T04:53:16.354793] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T04:53:16.358359] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T04:53:16.362952] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T04:53:16.366459] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T04:53:16.376524] [exec] pkill hostapd || true
+[2025-11-02T04:53:16.407823] [exec] pkill dnsmasq || true
+[2025-11-02T04:53:16.439927] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T04:53:16.827416] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T04:53:16.829042] [network] AP started with captive portal redirection.
+[2025-11-02T05:01:34.593371] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T05:01:34.593913] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T05:01:34.594145] [network] Runtime files generated.
+[2025-11-02T05:01:34.902791] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T05:01:35.204417] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T05:01:35.204886] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T05:01:35.205140] [network] Runtime files generated.
+[2025-11-02T05:01:35.456940] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T05:01:40.407323] [portal] Admin updated config via API (no pass required).
+[2025-11-02T05:01:41.835335] [portal] Admin updated config via API (no pass required).
+[2025-11-02T05:01:47.186028] [portal] Admin updated config via API (no pass required).
+[2025-11-02T05:01:48.405355] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T05:01:48.405613] [exec] pkill hostapd || true
+[2025-11-02T05:01:48.440103] [exec] pkill dnsmasq || true
+[2025-11-02T05:01:48.474927] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T05:01:48.484377] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T05:01:48.497425] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T05:01:48.504451] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T05:01:48.516457] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T05:01:48.530380] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T05:01:48.542536] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T05:01:48.546368] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T05:01:48.577529] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T05:01:48.761331] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T05:01:48.803716] [network] AP stopped and cleaned up.
+[2025-11-02T05:01:49.946629] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T05:01:49.947071] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T05:01:49.947359] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-02T05:01:49.947597] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-02T05:01:49.980617] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T05:01:50.058416] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-02T05:01:50.063238] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-02T05:01:50.067862] [exec] ip link set wlxc01c30431f9b up
+[2025-11-02T05:01:50.214226] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-02T05:01:50.217028] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-02T05:01:50.220867] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-02T05:01:50.224395] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-02T05:01:50.228240] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T05:01:50.231726] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-02T05:01:50.236075] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-02T05:01:50.239961] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-02T05:01:50.256495] [exec] pkill hostapd || true
+[2025-11-02T05:01:50.296863] [exec] pkill dnsmasq || true
+[2025-11-02T05:01:50.330099] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-02T05:01:50.715588] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-02T05:01:50.717415] [network] AP started with captive portal redirection.
+[2025-11-02T05:36:44.219441] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:40:22.250629] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:43:23.931732] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:44:35.794271] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T05:44:35.796764] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T05:44:35.797396] [network] Runtime files generated.
+[2025-11-02T05:44:36.347076] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T05:44:39.916171] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:45:09.059783] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:45:59.936045] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T05:45:59.936568] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T05:45:59.936793] [network] Runtime files generated.
+[2025-11-02T05:46:00.170537] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T05:46:08.262121] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:46:57.783994] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T05:46:57.784534] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T05:46:57.784763] [network] Runtime files generated.
+[2025-11-02T05:46:58.137316] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T05:46:59.681474] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:47:38.552841] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T05:47:38.553610] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T05:47:38.554015] [network] Runtime files generated.
+[2025-11-02T05:47:38.782988] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T05:47:41.310017] [portal] Error processing submission: unbound method datetime.isoformat() needs an argument
+[2025-11-02T05:47:58.084728] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T05:47:58.085233] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T05:47:58.085470] [network] Runtime files generated.
+[2025-11-02T05:47:58.306492] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T05:48:01.309422] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:48:08.975065] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:48:18.362357] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:49:15.792557] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-02T05:49:15.793269] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-02T05:49:15.793490] [network] Runtime files generated.
+[2025-11-02T05:49:16.109378] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-02T05:49:19.556819] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:53:40.301096] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T05:55:46.488430] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:03:51.384273] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:04:12.365026] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:04:19.072164] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:05:48.109270] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:07:40.421947] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:10:00.148469] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:10:06.674918] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:11:02.742697] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:11:10.614869] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:12:35.966011] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:17:08.918117] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:17:22.313452] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:18:25.722133] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:19:55.230649] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:20:13.535159] [portal] Received submission from 10.0.0.199; stored.
+[2025-11-02T06:34:48.263068] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-02T06:34:48.263525] [exec] pkill hostapd || true
+[2025-11-02T06:34:48.297717] [exec] pkill dnsmasq || true
+[2025-11-02T06:34:48.336418] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-02T06:34:48.355200] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-02T06:34:48.368248] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-02T06:34:48.380295] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T06:34:48.392261] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-02T06:34:48.442310] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-02T06:34:48.451380] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-02T06:34:48.455524] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-02T06:34:48.580145] [exec] ip link set wlxc01c30431f9b down
+[2025-11-02T06:34:48.625902] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-02T06:34:48.678973] [network] AP stopped and cleaned up.
+[2025-11-03T12:39:12.956521] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:39:12.959786] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:39:12.960032] [network] Runtime files generated.
+[2025-11-03T12:39:13.235335] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:39:13.350965] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:39:13.351425] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:39:13.351632] [network] Runtime files generated.
+[2025-11-03T12:39:13.571385] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:43:40.967502] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:43:40.968672] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:43:40.969515] [network] Runtime files generated.
+[2025-11-03T12:43:41.257219] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:44:30.660106] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:44:30.660677] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:44:30.660911] [network] Runtime files generated.
+[2025-11-03T12:44:30.882842] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:44:30.997568] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:44:30.997989] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:44:30.998212] [network] Runtime files generated.
+[2025-11-03T12:44:31.211324] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:46:29.247842] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:46:29.248592] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:46:29.248824] [network] Runtime files generated.
+[2025-11-03T12:46:29.469540] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:46:29.572336] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:46:29.572836] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:46:29.573069] [network] Runtime files generated.
+[2025-11-03T12:46:29.785477] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:49:31.924067] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:49:31.924642] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:49:31.924864] [network] Runtime files generated.
+[2025-11-03T12:49:32.140789] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:49:32.608439] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:49:32.609502] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:49:32.610038] [network] Runtime files generated.
+[2025-11-03T12:49:32.896440] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:49:45.878636] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:49:45.879148] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:49:45.879403] [network] Runtime files generated.
+[2025-11-03T12:49:46.099402] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:49:46.286362] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:49:46.286878] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:49:46.287126] [network] Runtime files generated.
+[2025-11-03T12:49:46.505128] [portal] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:51:46.483091] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:51:46.483642] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:51:46.483868] [network] Runtime files generated.
+[2025-11-03T12:51:46.714435] [main] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:52:08.610025] [portal] Admin updated config via API (no pass required).
+[2025-11-03T12:52:10.029800] [portal] Admin updated config via API (no pass required).
+[2025-11-03T12:52:13.900682] [portal] Admin updated config via API (no pass required).
+[2025-11-03T12:52:17.119452] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:52:17.120578] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:52:17.121326] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-03T12:52:17.122029] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-03T12:52:17.263935] [exec] ip link set wlxc01c30431f9b down
+[2025-11-03T12:52:17.312061] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-03T12:52:17.321253] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-03T12:52:17.335669] [exec] ip link set wlxc01c30431f9b up
+[2025-11-03T12:52:17.502406] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-03T12:52:17.510593] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-03T12:52:17.681627] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-03T12:52:17.711755] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-03T12:52:17.722780] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-03T12:52:17.771038] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-03T12:52:17.788209] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-03T12:52:17.806726] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-03T12:52:17.855900] [exec] pkill hostapd || true
+[2025-11-03T12:52:17.938993] [exec] pkill dnsmasq || true
+[2025-11-03T12:52:17.981194] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-03T12:52:18.399344] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-03T12:52:18.404145] [network] AP started with captive portal redirection.
+[2025-11-03T12:52:57.439305] [main] Signal received. Running stop_ap() cleanup.
+[2025-11-03T12:52:57.440794] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-03T12:52:57.441667] [exec] pkill hostapd || true
+[2025-11-03T12:52:57.547444] [exec] pkill dnsmasq || true
+[2025-11-03T12:52:57.637468] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-03T12:52:57.651409] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-03T12:52:57.665635] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-03T12:52:57.677704] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-03T12:52:57.693912] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-03T12:52:57.809875] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-03T12:52:57.827225] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-03T12:52:57.844212] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-03T12:52:57.856653] [exec] ip link set wlxc01c30431f9b down
+[2025-11-03T12:52:57.921645] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-03T12:52:58.019994] [network] AP stopped and cleaned up.
+[2025-11-03T12:59:09.409635] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:59:09.410123] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:59:09.410370] [network] Runtime files generated.
+[2025-11-03T12:59:09.616695] [main] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T12:59:31.032885] [portal] Admin updated config via API (no pass required).
+[2025-11-03T12:59:32.472696] [portal] Admin updated config via API (no pass required).
+[2025-11-03T12:59:43.437328] [portal] Admin updated config via API (no pass required).
+[2025-11-03T12:59:46.495150] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T12:59:46.496305] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T12:59:46.496981] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-03T12:59:46.497878] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-03T12:59:46.630452] [exec] ip link set wlxc01c30431f9b down
+[2025-11-03T12:59:46.652026] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-03T12:59:46.671081] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-03T12:59:46.688863] [exec] ip link set wlxc01c30431f9b up
+[2025-11-03T12:59:46.868732] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-03T12:59:46.876054] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-03T12:59:46.889662] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-03T12:59:46.905586] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-03T12:59:46.920777] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-03T12:59:46.937974] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-03T12:59:46.955865] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-03T12:59:46.971603] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-03T12:59:46.991790] [error] Command failed: iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT (Error: iptables v1.8.10 (nf_tables):  RULE_APPEND failed (Invalid argument): rule in chain PREROUTING)
+[2025-11-03T12:59:46.992656] [portal] start_ap error: Command 'iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT' returned non-zero exit status 4.
+[2025-11-03T13:06:47.481862] [main] Signal received. Running stop_ap() cleanup.
+[2025-11-03T13:06:47.486350] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-03T13:06:47.487013] [exec] pkill hostapd || true
+[2025-11-03T13:06:47.608981] [exec] pkill dnsmasq || true
+[2025-11-03T13:06:47.751733] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-03T13:06:47.778698] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-03T13:06:47.796304] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-03T13:06:47.806927] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-03T13:06:47.829044] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-03T13:06:47.845257] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-03T13:06:47.862967] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-03T13:06:47.871055] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-03T13:06:47.878571] [exec] ip link set wlxc01c30431f9b down
+[2025-11-03T13:06:47.924567] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-03T13:06:47.965839] [network] AP stopped and cleaned up.
+[2025-11-03T13:06:50.095373] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T13:06:50.095816] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T13:06:50.096038] [network] Runtime files generated.
+[2025-11-03T13:06:50.370091] [main] Starting Flask portal on 0.0.0.0:8081
+[2025-11-03T13:07:10.000286] [portal] Admin updated config via API (no pass required).
+[2025-11-03T13:07:11.467380] [portal] Admin updated config via API (no pass required).
+[2025-11-03T13:07:15.979508] [portal] Admin updated config via API (no pass required).
+[2025-11-03T13:07:17.667935] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-03T13:07:17.668991] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-03T13:07:17.669854] [network] Starting real AP on wlxc01c30431f9b
+[2025-11-03T13:07:17.670614] [exec] nmcli dev set wlxc01c30431f9b managed no || true
+[2025-11-03T13:07:17.806919] [exec] ip link set wlxc01c30431f9b down
+[2025-11-03T13:07:17.828769] [exec] ip addr flush dev wlxc01c30431f9b
+[2025-11-03T13:07:17.851194] [exec] ip addr add 10.0.0.1/24 dev wlxc01c30431f9b
+[2025-11-03T13:07:17.870655] [exec] ip link set wlxc01c30431f9b up
+[2025-11-03T13:07:18.039825] [exec] sysctl -w net.ipv4.ip_forward=1
+[2025-11-03T13:07:18.047420] [exec] iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+[2025-11-03T13:07:18.061481] [exec] iptables -A FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT
+[2025-11-03T13:07:18.077848] [exec] iptables -A FORWARD -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT
+[2025-11-03T13:07:18.092001] [exec] iptables -A FORWARD -i wlxc01c30431f9b -o eth0 -j DROP
+[2025-11-03T13:07:18.106232] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-03T13:07:18.128308] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53
+[2025-11-03T13:07:18.144079] [exec] iptables -t nat -A PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081
+[2025-11-03T13:07:18.158528] [exec] pkill hostapd || true
+[2025-11-03T13:07:18.262047] [exec] pkill dnsmasq || true
+[2025-11-03T13:07:18.345782] [exec] hostapd "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf" -B
+[2025-11-03T13:07:18.756545] [exec] dnsmasq -C "/home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf" -k &
+[2025-11-03T13:07:18.781810] [network] AP started with captive portal redirection.
+[2025-11-03T13:07:56.144814] [main] Signal received. Running stop_ap() cleanup.
+[2025-11-03T13:07:56.146366] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-03T13:07:56.147069] [exec] pkill hostapd || true
+[2025-11-03T13:07:56.254329] [exec] pkill dnsmasq || true
+[2025-11-03T13:07:56.344295] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-03T13:07:56.358552] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-03T13:07:56.370375] [exec] iptables -D FORWARD -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-03T13:07:56.383759] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-03T13:07:56.400609] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-03T13:07:56.412288] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-03T13:07:56.525027] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-03T13:07:56.544587] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-03T13:07:56.557177] [exec] ip link set wlxc01c30431f9b down
+[2025-11-03T13:07:56.619165] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-03T13:07:56.716920] [network] AP stopped and cleaned up.
