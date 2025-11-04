@@ -2,116 +2,393 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portal Admin — Red & Black</title>
-  <link rel="stylesheet" href="/admin/admin.css">
+
+  <!--
+    REMOVED: Tailwind CDN script.
+    
+    ADDED: All compiled CSS styles are now in this <style> tag.
+    The file is now 100% self-contained and works offline.
+  -->
+  <style>
+    /* --- Minimal Tailwind-like "Preflight" (Base Styles) --- */
+    *, ::before, ::after {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+      border-color: #e5e7eb; /* A default border color */
+    }
+    html {
+      line-height: 1.5;
+      -webkit-text-size-adjust: 100%;
+      -moz-tab-size: 4;
+      tab-size: 4;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    body {
+      margin: 0;
+      line-height: inherit;
+    }
+    h1, h2, h3, h4, h5, h6, p, pre {
+      margin: 0;
+    }
+    button, input, select {
+      font-family: inherit;
+      font-size: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: inherit;
+      color: inherit;
+    }
+    button {
+      background-color: transparent;
+      background-image: none;
+      cursor: pointer;
+    }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    /* --- Base Body Style --- */
+    body {
+      background-color: #000;
+      color: #9ca3af; /* text-gray-400 */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 1.25rem; /* p-5 */
+      font-family: 'Inter', sans-serif;
+      background-image: linear-gradient(180deg, #070707, #0d0d0d);
+    }
+    
+    /* --- Compiled Custom Component Styles --- */
+
+    .card {
+      background-color: #171717; /* bg-neutral-900 */
+      border-radius: 0.75rem; /* rounded-xl */
+      padding: 1rem; /* p-4 */
+      box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); /* shadow-2xl */
+      border: 1px solid rgba(41, 41, 41, 0.5); /* border-neutral-800/50 */
+      transition-property: all;
+      transition-duration: 300ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      background-image: linear-gradient(180deg, #0f0f0f, #131313);
+    }
+    .card:hover {
+      transform: scale(1.01);
+      box-shadow: 0 10px 15px -3px rgba(127, 29, 29, 0.1), 0 4px 6px -4px rgba(127, 29, 29, 0.1); /* hover:shadow-lg hover:shadow-red-900/10 */
+    }
+
+    .section-title {
+      font-size: 0.875rem; /* text-sm */
+      font-weight: 600; /* font-semibold */
+      color: #fca5a5; /* text-red-300 */
+      margin-bottom: 0.5rem; /* mb-2 */
+      margin-top: 0.5rem; /* mt-2 */
+    }
+
+    .kv-label {
+      width: 9rem; /* w-36 */
+      color: #fecaca; /* text-red-200 */
+      font-weight: 600; /* font-semibold */
+      font-size: 0.875rem; /* text-sm */
+      flex-shrink: 0;
+    }
+    .kv-value {
+      color: #9ca3af; /* text-gray-400 */
+      font-size: 0.875rem; /* text-sm */
+    }
+
+    .input-base {
+      width: 100%;
+      padding: 0.5rem; /* p-2 */
+      border-radius: 0.375rem; /* rounded-md */
+      background-color: #262626; /* bg-neutral-800 */
+      border: 1px solid #404040; /* border-neutral-700 */
+      color: #d4d4d4; /* text-gray-300 */
+      font-size: 0.875rem; /* text-sm */
+      transition-property: all;
+      transition-duration: 200ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .input-base:focus {
+      outline: 2px solid transparent;
+      outline-offset: 2px;
+      border-color: #ef4444; /* focus:border-red-500 */
+      box-shadow: 0 0 0 2px #ef4444; /* focus:ring-2 focus:ring-red-500 */
+    }
+
+    .viewer {
+      background-color: #0a0a0a; /* bg-neutral-950 */
+      border: 1px solid rgba(76, 29, 29, 0.2); /* border-red-900/20 */
+      padding: 0.75rem; /* p-3 */
+      border-radius: 0.5rem; /* rounded-lg */
+      color: #e5e7eb; /* text-gray-200 */
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      overflow: auto;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 0.75rem; /* px-3 py-2 */
+      border-radius: 0.375rem; /* rounded-md */
+      font-weight: 600; /* font-semibold */
+      font-size: 0.875rem; /* text-sm */
+      transition-property: all;
+      transition-duration: 200ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .btn-danger {
+      background-color: #dc2626; /* bg-red-600 */
+      color: #fff; /* text-white */
+      box-shadow: 0 10px 15px -3px rgba(220, 38, 38, 0.1), 0 4px 6px -4px rgba(220, 38, 38, 0.1); /* shadow-lg shadow-red-600/10 */
+    }
+    .btn-danger:hover {
+      background-color: #b91c1c; /* hover:bg-red-700 */
+      box-shadow: 0 10px 15px -3px rgba(220, 38, 38, 0.2), 0 4px 6px -4px rgba(220, 38, 38, 0.2); /* hover:shadow-red-600/20 */
+    }
+    .btn-ghost {
+      background-color: transparent;
+      color: #d4d4d4; /* text-gray-300 */
+      border: 1px solid #404040; /* border-neutral-700 */
+    }
+    .btn-ghost:hover {
+      background-color: #262626; /* hover:bg-neutral-800 */
+      border-color: #737373; /* hover:border-neutral-500 */
+    }
+    .btn-small {
+      padding: 0.375rem 0.625rem; /* px-2.5 py-1.5 */
+      font-size: 0.75rem; /* text-xs */
+      border-radius: 0.375rem; /* rounded-md */
+    }
+
+    .hint {
+      font-size: 0.875rem; /* text-sm */
+      color: #737373; /* text-gray-500 */
+    }
+
+    /* --- Keyframes & Animations --- */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in {
+      animation: fadeIn 0.5s ease-out forwards;
+    }
+
+    /* --- Utility Classes Used in HTML --- */
+    .max-w-6xl { max-width: 72rem; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .grid { display: grid; }
+    .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+    .gap-3 { gap: 0.75rem; }
+    .gap-4 { gap: 1rem; }
+    .gap-5 { gap: 1.25rem; }
+    .space-y-2 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.5rem; }
+    .space-y-3 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.75rem; }
+    .space-y-4 > :not([hidden]) ~ :not([hidden]) { margin-top: 1rem; }
+    .order-1 { order: 1; }
+    .order-2 { order: 2; }
+    .flex { display: flex; }
+    .items-center { align-items: center; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .mb-2\.5 { margin-bottom: 0.625rem; }
+    .mb-3 { margin-bottom: 0.75rem; }
+    .mt-2 { margin-top: 0.5rem; }
+    .mt-4 { margin-top: 1rem; }
+    .w-12 { width: 3rem; }
+    .h-12 { height: 3rem; }
+    .w-4 { width: 1rem; }
+    .h-4 { height: 1rem; }
+    .w-full { width: 100%; }
+    .flex-1 { flex: 1 1 0%; }
+    .rounded { border-radius: 0.375rem; }
+    .rounded-lg { border-radius: 0.5rem; }
+    .bg-gradient-to-b { background-image: linear-gradient(to bottom, var(--tw-gradient-stops)); }
+    .from-red-500 { --tw-gradient-from: #ef4444; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(239, 68, 68, 0)); }
+    .to-red-700 { --tw-gradient-to: #b91c1c; }
+    .bg-neutral-800 { background-color: #262626; }
+    .border-neutral-700 { border-color: #404040; }
+    .text-lg { font-size: 1.125rem; }
+    .font-bold { font-weight: 700; }
+    .text-white { color: #fff; }
+    .text-red-600 { color: #dc2626; }
+    .focus\:ring-red-500:focus { box-shadow: 0 0 0 2px #ef4444; }
+    .text-right { text-align: right; }
+    .text-xs { font-size: 0.75rem; }
+    
+    /* <-- RENAMED: Changed class names to remove brackets [] --> */
+    .min-h-100 { min-height: 100px; }
+    .max-h-420 { max-height: 420px; }
+    
+    .max-h-52 { max-height: 13rem; }
+    code {
+      background-color: #262626;
+      padding: 0.125rem 0.25rem;
+      border-radius: 0.25rem;
+      font-size: 0.8em;
+    }
+
+    @media (min-width: 768px) { /* md: */
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (min-width: 1024px) { /* lg: */
+      .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .lg\:col-span-1 { grid-column: span 1 / span 1; }
+      .lg\:col-span-2 { grid-column: span 2 / span 2; }
+      .lg\:order-1 { order: 1; }
+      .lg\:order-2 { order: 2; }
+    }
+
+  </style>
 </head>
-<body>
-  <div class="wrap">
-    <aside class="sidebar card" aria-label="Controls">
-      <div class="brand">
-        <div class="logo" aria-hidden="true"></div>
+<body class="font-['Inter',_sans-serif]">
+
+  <!--
+    Main wrapper:
+    - max-w-6xl (approx 1100px)
+    - grid-cols-1 on mobile
+    - lg:grid-cols-3 on large screens
+  -->
+  <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-5 fade-in">
+    
+    <!-- 
+      Sidebar: (Now shorter and cleaner)
+      - order-2 on mobile (appears last)
+      - lg:order-1 on large screens (appears first)
+    -->
+    <aside class="card lg:col-span-1 order-2 lg:order-1 space-y-4" aria-label="Controls">
+      
+      <!-- Brand -->
+      <div class="brand flex items-center gap-3 mb-3">
+        <div class="logo w-12 h-12 rounded-lg bg-gradient-to-b from-red-500 to-red-700" aria-hidden="true"></div>
         <div>
-          <h1>Portal Admin</h1>
+          <h1 class="text-lg font-bold text-white">Portal Admin</h1>
           <div class="hint">Local-only • Red Team</div>
         </div>
       </div>
 
+      <!-- Adapter Section -->
       <div class="section">
         <div class="section-title">Adapter</div>
-        <div class="control-row">
-          <select id="adapterSelect" class="select"></select>
+        <div class="control-row mb-2.5">
+          <select id="adapterSelect" class="input-base"></select>
         </div>
-        <div class="control-row">
+        <div class="control-row flex gap-2 mb-2.5">
           <button id="btnDetect" class="btn btn-ghost btn-small">Auto-detect</button>
           <button id="btnSetAdapter" class="btn btn-danger btn-small">Set Adapter</button>
         </div>
         <div class="hint">Auto-detect will call the server to list wireless interfaces.</div>
       </div>
 
+      <!-- Portal Site Section -->
       <div class="section">
         <div class="section-title">Portal Site</div>
-        <div class="control-row">
-          <select id="siteSelect" class="select"></select>
+        <div class="control-row mb-2.5">
+          <select id="siteSelect" class="input-base"></select>
         </div>
-        <div class="control-row">
-          <input id="customSite" class="input" placeholder="Or enter custom site folder (web/victim/...)" />
+        <div class="control-row mb-2.5">
+          <input id="customSite" class="input-base" placeholder="Or enter custom site folder (web/victim/...)" />
         </div>
-        <div class="control-row">
+        <div class="control-row mb-2.5">
           <button id="btnSetSite" class="btn btn-danger btn-small">Apply Site</button>
         </div>
         <div class="hint">Choose which site files are served to connecting devices.</div>
       </div>
 
-      <div class="section" style="margin-top:10px">
-        <div class="section-title">AP Settings</div>
-        <div class="kv">
-          <label for="ssidInput">SSID</label>
-          <input id="ssidInput" class="input" placeholder="TestPortalAP">
-        </div>
-        <div class="kv">
-          <label for="channelInput">Channel</label>
-          <input id="channelInput" class="input" placeholder="6" />
-        </div>
-        <div class="kv">
-          <label for="wpaCheck">WPA2</label>
-          <input type="checkbox" id="wpaCheck"/>
-        </div>
-        <div class="kv" id="passRow" style="display:none">
-          <label for="wpaPass">Passphrase</label>
-          <input id="wpaPass" class="input" placeholder="min 8 chars"/>
-        </div>
-        <div class="control-row">
-          <button id="btnApplyAP" class="btn btn-danger">Apply</button>
-        </div>
-      </div>
-
-      <div style="height:10px"></div>
-
+      <!-- AP Settings Section -->
       <div class="section">
-        <div class="section-title">Quick Actions</div>
-        <div class="control-row">
-          <button id="btnGenerate" class="btn btn-ghost btn-small">Generate Runtime</button>
-          <button id="btnSimStart" class="btn btn-ghost btn-small">Start</button>
-          <button id="btnSimStop" class="btn btn-ghost btn-small">Stop</button>
+        <div class="section-title">AP Settings</div>
+        <div class="space-y-3">
+          <div class="kv flex gap-3 items-center">
+            <label for="ssidInput" class="kv-label">SSID</label>
+            <input id="ssidInput" class="input-base" placeholder="TestPortalAP">
+          </div>
+          <div class="kv flex gap-3 items-center">
+            <label for="channelInput" class="kv-label">Channel</label>
+            <input id="channelInput" class="input-base" placeholder="6" />
+          </div>
+          <div class="kv flex gap-3 items-center"> <!-- <-- FIXED: Was 'classs' -->
+            <label for="wpaCheck" class="kv-label">WPA2</label>
+            <input type="checkbox" id="wpaCheck" class="h-4 w-4 rounded bg-neutral-800 border-neutral-700 text-red-600 focus:ring-red-500" style="vertical-align: middle;"/>
+          </div>
+          <div class="kv flex gap-3 items-center" id="passRow" style="display:none">
+            <label for="wpaPass" class="kv-label">Passphrase</label>
+            <input id="wpaPass" class="input-base" placeholder="min 8 chars"/>
+          </div>
         </div>
-        <div class="hint">Generate writes hostapd/dnsmasq templates into <code>data/runtime/</code></div>
+        <div class="control-row mt-4">
+          <button id="btnApplyAP" class="btn btn-danger w-full">Apply</button>
+        </div>
       </div>
+      
     </aside>
 
-    <main class="main">
-      <div class="card">
-        <div class="section-title">Status</div>
-        <div class="kv"><label>Server</label><div class="val" id="serverStatus">not loaded</div></div>
-        <div class="kv"><label>Selected Adapter</label><div class="val" id="selectedAdapter">-</div></div>
-        <div class="kv"><label>Portal Site</label><div class="val" id="selectedSite">-</div></div>
+    <!-- 
+      Main Content:
+      - order-1 on mobile (appears first)
+      - lg:order-2 on large screens (appears second)
+    -->
+    <main class="main lg:col-span-2 space-y-4 order-1 lg:order-2">
+      
+      <!-- NEW: Top grid for Status and Quick Actions -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        <!-- Status Card (Moved to top grid) -->
+        <div class="card">
+          <div class="section-title">Status</div>
+          <div class="space-y-2">
+            <div class="kv flex gap-3 items-center"><label class="kv-label">Server</label><div class="kv-value" id="serverStatus">not loaded</div></div>
+            <div class="kv flex gap-3 items-center"><label class="kv-label">Selected Adapter</label><div class="kv-value" id="selectedAdapter">-</div></div>
+            <div class="kv flex gap-3 items-center"><label class="kv-label">Portal Site</label><div class="kv-value" id="selectedSite">-</div></div>
+          </div>
+        </div>
+
+        <!-- Quick Actions Card (MOVED from sidebar) -->
+        <div class="card">
+          <div class="section-title">Quick Actions</div>
+          <div class="control-row flex gap-2">
+            <button id="btnGenerate" class="btn btn-ghost btn-small">Generate Runtime</button>
+            <button id="btnSimStart" class="btn btn-ghost btn-small">Start</button>
+            <button id="btnSimStop" class="btn btn-ghost btn-small">Stop</button>
+          </div>
+          <div class="hint mt-2">Generate writes hostapd/dnsmasq templates into <code>data/runtime/</code></div>
+        </div>
+
       </div>
 
+      <!-- Saved Credentials Card -->
       <div class="card">
         <div class="section-title">Saved Credentials</div>
-        <div class="row" style="margin-bottom:8px">
+        <div class="flex gap-2 mb-2">
           <button id="btnLoadSubs" class="btn btn-danger">Load credentials</button>
           <button id="btnExportSubs" class="btn btn-ghost">Export</button>
           <button id="btnClearView" class="btn btn-ghost">Clear</button>
         </div>
-        <div id="subsViewer" class="viewer">No data loaded. Click "Load credentials".</div>
+        <!-- <-- UPDATED: Now uses the simpler class names -->
+        <div id="subsViewer" class="viewer min-h-100 max-h-420">No data loaded. Click "Load credentials".</div>
       </div>
 
+      <!-- Events & Logs Card -->
       <div class="card">
         <div class="section-title">Events & Logs</div>
-        <div class="row" style="margin-bottom:8px">
+        <div class="flex gap-2 mb-2">
           <button id="btnClearLogs" class="btn btn-ghost">Clear View</button>
-          <div class="hint" style="flex:1;text-align:right">Auto-refreshes every 5s</div>
+          <div class="hint flex-1 text-right">Auto-refreshes every 5s</div>
         </div>
-        <pre id="eventLogViewer" class="viewer" style="max-height: 200px; font-size: 0.8rem;">—</pre>
-        <div class="hint">Full log: <code>logs/portal.log</code></div>
+        <pre id="eventLogViewer" class="viewer max-h-52 text-xs">—</pre>
+        <div class="hint mt-2">Full log: <code>logs/portal.log</code></div>
       </div>
     </main>
   </div>
 
+  <!-- External JS file -->
   <script src="/admin/admin.js" defer></script>
+  
+  <!-- Inline JS from original file for WPA2 checkbox -->
   <script>
-    // small wiring to show/hide passphrase input when WPA2 checked
     document.addEventListener('DOMContentLoaded', () => {
       const wpa = document.getElementById('wpaCheck');
       const passRow = document.getElementById('passRow');
@@ -122,3 +399,5 @@
   </script>
 </body>
 </html>
+
+

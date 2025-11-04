@@ -1954,3 +1954,23 @@
 [2025-11-03T13:07:56.557177] [exec] ip link set wlxc01c30431f9b down
 [2025-11-03T13:07:56.619165] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
 [2025-11-03T13:07:56.716920] [network] AP stopped and cleaned up.
+[2025-11-04T01:34:50.633904] [network] Generated hostapd.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/hostapd.conf
+[2025-11-04T01:34:50.634746] [network] Generated dnsmasq.conf at /home/wilford-bordeos/Custom Tools/wifitool/data/runtime/dnsmasq.conf
+[2025-11-04T01:34:50.634977] [network] Runtime files generated.
+[2025-11-04T01:34:50.899068] [main] Starting Flask portal on 0.0.0.0:8081
+[2025-11-04T01:35:20.716000] [portal] Received submission from 127.0.0.1; stored.
+[2025-11-04T02:17:20.699370] [main] Signal received. Running stop_ap() cleanup.
+[2025-11-04T02:17:20.703099] [network] Stopping AP on wlxc01c30431f9b
+[2025-11-04T02:17:20.704002] [exec] pkill hostapd || true
+[2025-11-04T02:17:20.779658] [exec] pkill dnsmasq || true
+[2025-11-04T02:17:20.814781] [exec] iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE || true
+[2025-11-04T02:17:20.879035] [exec] iptables -D FORWARD -i eth0 -o wlxc01c30431f9b -m state --state RELATED,ESTABLISHED -j ACCEPT || true
+[2025-11-04T02:17:20.888981] [exec] iptables -D FORWARD -i wlxc01c30431f9b -p tcp --dport 443 -j REJECT || true
+[2025-11-04T02:17:20.912965] [exec] iptables -D FORWARD -i wlxc01c30431f9b -o eth0 -j DROP || true
+[2025-11-04T02:17:20.918942] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-04T02:17:20.932273] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p udp --dport 53 -j DNAT --to-destination 10.0.0.1:53 || true
+[2025-11-04T02:17:20.938788] [exec] iptables -t nat -D PREROUTING -i wlxc01c30431f9b -p tcp --dport 80 -j DNAT --to-destination 10.0.0.1:8081 || true
+[2025-11-04T02:17:20.945030] [exec] sysctl -w net.ipv4.ip_forward=0
+[2025-11-04T02:17:20.952507] [exec] ip link set wlxc01c30431f9b down
+[2025-11-04T02:17:20.974928] [exec] nmcli dev set wlxc01c30431f9b managed yes || true
+[2025-11-04T02:17:21.030434] [network] AP stopped and cleaned up.

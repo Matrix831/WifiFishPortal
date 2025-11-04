@@ -1,6 +1,6 @@
 # WIFIFISHPORTAL
 
-* *A Python toolkit for launching Wi-Fi Captive Portal attacks.* *
+**A Python toolkit for launching Wi-Fi Captive Portal attacks.**
 
 ## ⚠️ ETHICAL USE ONLY ⚠️
    
