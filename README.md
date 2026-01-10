@@ -99,3 +99,7 @@ This tool is not yet in its final stage, so bugs and errors might occur.
 
   !!NOTE!!
   MAKE SURE YOUR WIFI MODULE OR WIFI ADAPTER SUPPORTS MONITOR MODE AND PACKET INJECTION
+
+  ## 👤 Author
+
+**Wilford Bordeos** *Electrical Engineering Student* [GitHub Profile](https://www.google.com/search?q=https://github.com/Matrix831)
