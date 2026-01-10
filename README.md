@@ -102,4 +102,5 @@ This tool is not yet in its final stage, so bugs and errors might occur.
 
   ## 👤 Author
 
-**Wilford Bordeos** *Electrical Engineering Student* [GitHub Profile](https://www.google.com/search?q=https://github.com/Matrix831)
+**Wilford Bordeos** 
+[GitHub Profile](https://www.google.com/search?q=https://github.com/Matrix831)
